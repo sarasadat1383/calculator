@@ -1,0 +1,12 @@
+unsupported operator:^
+10
+2
+242
+31
+49
+49
+3
+255290
+unsupported operator:_
+unsupported operator:=
+unsupported operator:%
