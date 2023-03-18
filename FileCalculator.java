@@ -1,12 +1,15 @@
+package repos.calculator.myCalculator;
 import java.io.*;
 import java.util.*;
 import java.lang.*;
 import operators.*;
 public class FileCalculator implements Runnable{
-	private File file;
+	private final File file;
+	
 	public FileCalculator(File file){
 		this.file = file;
 	}
+	
 	public void run(){
 		try  { 
 			FileReader filereader = new FileReader(file );   //reads the file  

@@ -1,9 +1,10 @@
+package repos.calculator.myCalculator;
 import java.io.*;
 import java.util.*;
 import java.lang.*;
 import operators.*;
 
-public class Main{
+public class Main {
 	public static void main(String[] args){
 		File file = new File("input"); 
 		File filesList[] = file.listFiles(); //List of all files and directories
