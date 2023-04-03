@@ -1,4 +1,4 @@
-package myCalculator;
+package repos.calculator.myCalculator;
 import java.io.*;
 import java.util.*;
 import java.lang.*;

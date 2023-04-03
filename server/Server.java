@@ -1,5 +1,5 @@
-package myCalculator.server;
-import myCalculator.Calculator;
+package repos.calculator.myCalculator.server;
+import repos.calculator.myCalculator.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -20,6 +20,7 @@ public class Server {
 			String [] myExpressions = line.split("\n");
 			for (String expression : myExpressions) {
                 int result;
+			
 				result = Calculator.calculating(expression);
 				System.out.println("result:" + result );
 			}

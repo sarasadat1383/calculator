@@ -1,5 +1,5 @@
-package myCalculator.client;
-import myCalculator.Main;
+package repos.calculator.myCalculator.client;
+import repos.calculator.myCalculator.*;
 import java.io.*;
 import java.net.*;
 import java.util.*;
