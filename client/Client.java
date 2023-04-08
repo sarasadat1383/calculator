@@ -1,5 +1,4 @@
-package repos.calculator.myCalculator.client;
-import repos.calculator.myCalculator.*;
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -9,18 +8,17 @@ public class Client {
 		ServerSocket serverSocket=null;
 		Socket clientSocket= null ; 
 		try {
-			clientSocket = new Socket("localhost", 5000); 
+			clientSocket = new Socket("localhost", 65534); 
 			InputStreamReader inputClient = new InputStreamReader(clientSocket.getInputStream());  
             OutputStreamWriter outputClient = new OutputStreamWriter(clientSocket.getOutputStream());  
             BufferedReader bufferedReader = new BufferedReader(inputClient);  
             BufferedWriter bufferedWriter = new BufferedWriter(outputClient); 
 			String Line; 
 			Main objectmainclass = new Main();
-			String[] my main= null;
-			String Result = objectmainclass.main(my main);
+			String Result = objectmainclass.main();
 			bufferedWriter.write(Result);
 			while( (Line= bufferedReader.readLine())!= null){
-				Result = bufferedWriter.write(Line);
+				Result= bufferedWriter.write(Line);
 			}
             bufferedReader.close();  
             bufferedWriter.close(); 

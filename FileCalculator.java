@@ -1,4 +1,4 @@
-package repos.calculator.myCalculator;
+
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -31,8 +31,6 @@ public class FileCalculator implements Runnable{
 			filewriter.close();
 		}
 		catch(IOException e)  {
-			
-			
 			e.printStackTrace();  
 		}
 	}
