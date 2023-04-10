@@ -1,1 +1,3 @@
-18:12:22.820 [main] INFO Client - Connected!
+18:57:06.658 [main] INFO Client - Connected!
+18:57:06.666 [main] TRACE Client - filesList:[Ljava.io.File;@6e0dec4a
+18:57:06.669 [main] TRACE Client - filesList.length:4

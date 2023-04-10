@@ -8,39 +8,48 @@ import operators.*;
 public class Client { 
 	private static Logger logger = LoggerFactory.getLogger(Client.class.getName());
 	public static void main (String[]args){
-		ServerSocket serverSocket=null;
-		Socket clientSocket= null ; 
-		try {
+		Socket clientSocket= null ;
+		BufferedReader inputClient = null ;
+		PrintWriter outputClient = null ;
+		try{
 			clientSocket = new Socket("localhost", 65534); 
 			logger.info("Connected!");
-			InputStreamReader inputClient = new InputStreamReader(clientSocket.getInputStream());  
-            OutputStreamWriter outputClient = new OutputStreamWriter(clientSocket.getOutputStream());  
-            BufferedReader bufferedReader = new BufferedReader(inputClient);  
-            BufferedWriter bufferedWriter = new BufferedWriter(outputClient); 
-			String Line; 
-			File file = new File("input"); 
-			File filesList[] = file.listFiles(); //List of all files and directories
-			if (filesList != null || filesList.length != 0) { 
-				for(File myfile : filesList) {
-					(new Thread( new FileCalculator(myfile))).start();
+			inputClient = new BufferedReader( new InputStreamReader(clientSocket.getInputStream()));  
+            outputClient = new PrintWriter(clientSocket.getOutputStream());     
+		}
+		catch( UnknownHostException e ){
+			logger.error( "unknown host!");
+		}
+		catch(IOException e){
+			logger.error("IOException !");
+		}
+		if (clientSocket != null && inputClient != null) {
+			try {
+				String inputLine;
+				File file = new File("C:\\repos\\calculator\\myCalculator\\input"); 
+				File filesList[] = file.listFiles(); //List of all files and directories
+				logger.trace("filesList:" +filesList);
+				if (filesList != null && filesList.length != 0) { 
+					logger.trace("filesList.length:" +filesList.length);
+					for(File myfile : filesList) {
+						(new Thread( new FileCalculator(myfile))).start();
+					}
 				}
+				if (filesList == null && filesList.length == 0) {
+					File Files = new File("C:\\repos\\calculator\\myCalculator\\input.txt" );
+					(new Thread( new FileCalculator(Files))).start(); 	
+				}
+				while( (inputLine= inputClient.readLine())!= null){
+					outputClient.println(inputLine);
+				}
+				inputClient.close();
+				outputClient.close();
+				clientSocket.close(); 
+			} 
+			catch (IOException e) {  
+				logger.error("IOException !");  
 			}
-			if (filesList == null || filesList.length == 0) {
-				File myFile = new File("input.txt" );
-				(new Thread( new FileCalculator(myFile))).start(); 	
-			}
-			while( (Line= bufferedReader.readLine())!= null){
-				bufferedWriter.write(Line);
-			}
-			inputClient.close();
-			outputClient.close();
-            bufferedReader.close();  
-            bufferedWriter.close(); 
-			clientSocket.close(); 
-		} 
-		catch (IOException e) {  
-			e.printStackTrace();  
-        }
+		}
 	}
 }	
 

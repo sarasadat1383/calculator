@@ -9,7 +9,9 @@ public class Server {
 	private static Logger logger = LoggerFactory.getLogger(Server.class.getName());
 	public static void main (String[]args){
 		ServerSocket serverSocket = null;
-		Socket clientSocket = null ; 
+		Socket clientSocket = null ;
+		BufferedReader inputServer ;
+		PrintWriter outputServer ;
 		String line;
 		try {
             serverSocket = new ServerSocket( 65534 );
@@ -17,11 +19,9 @@ public class Server {
 			logger.info("Waiting for a client ...");
 			clientSocket= serverSocket.accept();
 			logger.info("Client accepted!");
-			InputStreamReader inputServer = new InputStreamReader(clientSocket.getInputStream());  
-            OutputStreamWriter outputServer = new OutputStreamWriter(clientSocket.getOutputStream());  
-            BufferedReader bufferedReader = new BufferedReader(inputServer);  
-            BufferedWriter bufferedWriter = new BufferedWriter(outputServer); 
-			line = bufferedReader.readLine();
+			inputServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
+            outputServer = new PrintWriter(clientSocket.getOutputStream());   
+			line = inputServer.readLine();
 			String [] myExpressions = line.split("\n");
 			for (String expression : myExpressions) {
                 int result;
@@ -31,8 +31,6 @@ public class Server {
 			}
 			inputServer.close();
 			outputServer.close();
-			bufferedReader.close();  
-            bufferedWriter.close();
 			logger.info("Closing connection");
 			clientSocket.close();  
 		}			
