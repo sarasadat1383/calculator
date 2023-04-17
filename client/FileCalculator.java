@@ -39,7 +39,7 @@ public class FileCalculator implements Runnable{
 			filewriter.close();
 			clientRequest.close();
 			clientInputStream.close();
-			clientSocket.close();		
+					
 		}
 		catch( UnknownHostException e ){
 			logger.error( "unknown host:"+e);

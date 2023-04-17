@@ -30,7 +30,7 @@ public class Server {
 				result = mycalculator.calculating(line);
 				serverOutputStream.println( result);
 				logger.info( line +"="+ result );
-				clientSocket.close();
+				
 			}
 		
 		}			
