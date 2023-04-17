@@ -1,3 +1,13 @@
-18:57:02.867 [main] INFO Server - Server started!
-18:57:02.869 [main] INFO Server - Waiting for a client ...
-18:57:06.657 [main] INFO Server - Client accepted!
+14:52:23.10 [main] INFO Server - Server started!
+14:52:23.11 [main] INFO Server - Waiting for a client ...
+14:52:24.360 [main] INFO Server - Client accepted!
+14:52:24.380 [main] INFO Server - serverinput:3^4
+14:52:24.383 [main] INFO PostfixGenerator - input:3^4
+14:52:24.386 [main] TRACE PostfixGenerator - array size:0
+14:52:24.386 [main] TRACE PostfixGenerator - charater by character:3
+14:52:24.388 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+14:52:24.388 [main] TRACE PostfixGenerator - Stringbuilder:3
+14:52:24.388 [main] TRACE PostfixGenerator - array size:0
+14:52:24.390 [main] TRACE PostfixGenerator - charater by character:^
+14:52:24.399 [main] TRACE Server - answer:unsupported operator:^
+

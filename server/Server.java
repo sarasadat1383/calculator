@@ -10,35 +10,36 @@ public class Server {
 	public static void main (String[]args){
 		ServerSocket serverSocket = null;
 		Socket clientSocket = null ;
-		BufferedReader inputServer ;
-		PrintWriter outputServer ;
+		BufferedReader serverInputStream ;
+		PrintStream serverOutputStream ;
 		String line;
+		String answer ="";
+		int result;
 		try {
             serverSocket = new ServerSocket( 65534 );
 			logger.info("Server started!");
-			logger.info("Waiting for a client ...");
-			clientSocket= serverSocket.accept();
-			logger.info("Client accepted!");
-			inputServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
-            outputServer = new PrintWriter(clientSocket.getOutputStream());   
-			line = inputServer.readLine();
-			String [] myExpressions = line.split("\n");
-			for (String expression : myExpressions) {
-                int result;
-				Calculator mycalculator = new Calculator();
-				result = mycalculator.calculating(expression);
-				logger.info("result:" + result );
+			while (true) {
+				logger.info("Waiting for a client ...");
+				clientSocket= serverSocket.accept();
+				logger.info("Client accepted!");
+				serverInputStream = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
+				serverOutputStream = new PrintStream(clientSocket.getOutputStream());   
+				line = serverInputStream.readLine(); 
+				logger.info("serverinput:"+ line);
+				Calculator mycalculator = new Calculator();	
+				result = mycalculator.calculating(line);
+				serverOutputStream.println( result);
+				logger.info( line +"="+ result );
+				clientSocket.close();
 			}
-			inputServer.close();
-			outputServer.close();
-			logger.info("Closing connection");
-			clientSocket.close();  
+		
 		}			
 		catch( UnsupportedOperatorException	e ){		
-			e.printStackTrace();
+			answer += e.getMessage() + e.getMyInvalidOperator() + "\n";
+			logger.trace("answer:"+ answer);
 		}
 		catch (IOException e) {  
-			e.printStackTrace();  
+			logger.error("IOException : " + e);    
         }
 	}
 }		
