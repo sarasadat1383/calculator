@@ -12,7 +12,7 @@ public class PostfixGenerator{
 		List<String> array = new ArrayList<>();
 		Stack <String> operatorstack = new Stack<>();
 		StringBuilder stringbuilder = new StringBuilder();
-		logger.info("input:" +	 inputLine);
+		logger.trace("input:" +	 inputLine);
 		for( int j=0 ; j< inputLine.length(); j++){
 			String character = Character.toString(inputLine.charAt(j));
 			logger.trace("array size:" + array.size());

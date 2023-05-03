@@ -10,13 +10,13 @@ public class FileCalculator implements Runnable{
 	private  File file;
 	Socket clientSocket= null ;
 	BufferedReader clientInputStream = null ;
-	PrintStream clientRequest;
+	PrintStream clientRequest = null;
 	
 	public FileCalculator(File file ){
 		this.file = file;
 	}
 	
-	public void run(){
+	public void run() {
 		try  { 
 			FileReader filereader = new FileReader(file );   //reads the file  
 			FileWriter filewriter = new FileWriter("result." + file.getName());
@@ -29,12 +29,33 @@ public class FileCalculator implements Runnable{
 			clientRequest = new PrintStream(clientSocket.getOutputStream());
 		
 			while((inputLine = bufferdreader.readLine())!=null) {
-				logger.trace("inputLine:"+inputLine); 
+				logger.info("ClientRequest : "+inputLine); 
 				clientRequest.println(inputLine);
 				
 			}
 			
 			clientInputStream = new BufferedReader( new InputStreamReader(clientSocket.getInputStream())); 
+			String finalAnswer = clientInputStream.readLine();
+			String[] tokens = finalAnswer.split( "#" );
+			String responseStatus = tokens[0];
+			String responseMessage = tokens[1];
+
+			if(responseStatus.equals("Ok ")){
+				answer = "Your final answer is : "+ responseMessage ;
+				logger.info("ClientOutput : \n "+ answer); 
+				filewriter.write(answer);
+			}
+			if(responseStatus.equals("UnsupportedOperatorException ")){
+				answer = "Your entered operator is unsupported!";
+				logger.info("ClientOutput : \n "+ answer); 
+				filewriter.write(answer);
+			}
+			if(responseStatus.equals("InvalidExpressionLength ")){
+				answer = "Your entered expressions length is invalid!";
+				logger.info("ClientOutput : \n "+ answer); 
+				filewriter.write(answer);
+			}
+			
 			filereader.close();    //closes the stream and release the resources that were busy in stream
 			filewriter.close();
 			clientRequest.close();

@@ -8,16 +8,16 @@ import operators.*;
 public class Client { 
 	private static Logger logger = LoggerFactory.getLogger(Client.class.getName());
 	
-	public static void main (String[]args){
+	public static void main (String[]args) throws InterruptedException{
 		String inputLine;
 		File file = new File("C:\\repos\\calculator\\myCalculator\\input"); 
 		File filesList[] = file.listFiles(); //List of all files and directories
-		logger.trace("filesList:" +filesList);
 		if (filesList != null && filesList.length != 0) { 
-			logger.trace("filesList.length:" +filesList.length);
+			logger.trace("filesListLength:" +filesList.length);
 			for(File myfile : filesList) {
-				logger.trace(" myfile::"+myfile);
+				logger.trace(" myFile :"+myfile);
 				(new Thread( new FileCalculator(myfile ))).start();
+				Thread.sleep(1000);
 			}
 		}
 

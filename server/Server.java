@@ -5,41 +5,64 @@ import java.net.*;
 import java.util.*;
 import java.lang.*;
 import operators.*;
-public class Server {
+public class Server implements Runnable   {
 	private static Logger logger = LoggerFactory.getLogger(Server.class.getName());
-	public static void main (String[]args){
-		ServerSocket serverSocket = null;
-		Socket clientSocket = null ;
-		BufferedReader serverInputStream ;
-		PrintStream serverOutputStream ;
-		String line;
-		String answer ="";
-		int result;
-		try {
-            serverSocket = new ServerSocket( 65534 );
-			logger.info("Server started!");
-			while (true) {
+	
+	ServerSocket serverSocket = null;
+	Socket clientSocket = null ;
+	BufferedReader serverInputStream ;
+	PrintStream serverOutputStream ;
+	String line;
+	String answer ="";
+	int result;
+		
+	public Server(int port) throws IOException {
+	serverSocket = new ServerSocket(65534);
+	}
+	
+	public void run()  {
+		Calculator mycalculator = new Calculator();		
+		while (true) {
+			try {
 				logger.info("Waiting for a client ...");
 				clientSocket= serverSocket.accept();
 				logger.info("Client accepted!");
 				serverInputStream = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
 				serverOutputStream = new PrintStream(clientSocket.getOutputStream());   
-				line = serverInputStream.readLine(); 
-				logger.info("serverinput:"+ line);
-				Calculator mycalculator = new Calculator();	
-				result = mycalculator.calculating(line);
-				serverOutputStream.println( result);
-				logger.info( line +"="+ result );
+				line = serverInputStream.readLine();
+				logger.info("ServerInput : "+ line);	
 				
+				if( line.length()>15){
+					throw(new InvalidExpressionLength("InvalidExpressionLength =>" , line.length())); 
+				}
+
+				result = mycalculator.compute(line);
+				logger.info( " Server Output : \n Ok # "+ result );
+				serverOutputStream.println("Ok # " + result );
 			}
-		
-		}			
-		catch( UnsupportedOperatorException	e ){		
-			answer += e.getMessage() + e.getMyInvalidOperator() + "\n";
-			logger.trace("answer:"+ answer);
+			
+			catch(InvalidExpressionLength e){
+				answer = e.getMyInvalidLength() + "\n";
+				logger.info("ServerOutput : \n InvalidExpressionLength # "+ answer);
+				serverOutputStream.println("InvalidExpressionLength # " + answer);
+			}
+			catch( UnsupportedOperatorException	e ){		
+				answer = e.getMyInvalidOperator() + "\n";
+				logger.info("ServerOutput : \n UnsupportedOperatorException # " + answer);
+				serverOutputStream.println("UnsupportedOperatorException # " + answer);
+			}
+			catch (IOException e) {  
+				logger.error("IOException : " + e);    
+			}
 		}
-		catch (IOException e) {  
-			logger.error("IOException : " + e);    
-        }
+	}
+	public static void main (String[]args) {
+		try {
+			(new Thread(new Server(65534))).start();	
+			
+		} 
+		catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }		

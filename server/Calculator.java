@@ -30,7 +30,7 @@ public class Calculator {
 		logger.info("answer:" +	operandstack.peek());
 		return operandstack.pop();
 	}
-	public int calculating(String inputLine) throws UnsupportedOperatorException {	
+	public int compute(String inputLine) throws UnsupportedOperatorException,InvalidExpressionLength {	
 		PostfixGenerator postfixGenerate = new PostfixGenerator();
 		List<String> tokens = postfixGenerate.convertingInfixToPostfix(inputLine);
 		return calculate(tokens);
