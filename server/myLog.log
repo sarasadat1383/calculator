@@ -1,0 +1,209 @@
+16:58:58.991 [main] INFO Server - Waiting for a client ...
+16:59:00.570 [main] INFO Server - Client accepted!
+16:59:00.582 [main] INFO Server - ServerInput : 77-8384949*54
+16:59:00.584 [main] TRACE PostfixGenerator - input:77-8384949*54
+16:59:00.587 [main] TRACE PostfixGenerator - array size:0
+16:59:00.588 [main] TRACE PostfixGenerator - charater by character:7
+16:59:00.589 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:00.589 [main] TRACE PostfixGenerator - Stringbuilder:7
+16:59:00.590 [main] TRACE PostfixGenerator - array size:0
+16:59:00.590 [main] TRACE PostfixGenerator - charater by character:7
+16:59:00.591 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:00.597 [main] TRACE PostfixGenerator - Stringbuilder:77
+16:59:00.598 [main] TRACE PostfixGenerator - array size:0
+16:59:00.598 [main] TRACE PostfixGenerator - charater by character:-
+16:59:00.599 [main] TRACE PostfixGenerator - operator by operator:-
+16:59:00.599 [main] TRACE PostfixGenerator - array size:1
+16:59:00.599 [main] TRACE PostfixGenerator - charater by character:8
+16:59:00.600 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.600 [main] TRACE PostfixGenerator - Stringbuilder:8
+16:59:00.601 [main] TRACE PostfixGenerator - array size:1
+16:59:00.601 [main] TRACE PostfixGenerator - charater by character:3
+16:59:00.601 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.602 [main] TRACE PostfixGenerator - Stringbuilder:83
+16:59:00.602 [main] TRACE PostfixGenerator - array size:1
+16:59:00.602 [main] TRACE PostfixGenerator - charater by character:8
+16:59:00.603 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.603 [main] TRACE PostfixGenerator - Stringbuilder:838
+16:59:00.603 [main] TRACE PostfixGenerator - array size:1
+16:59:00.604 [main] TRACE PostfixGenerator - charater by character:4
+16:59:00.604 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.604 [main] TRACE PostfixGenerator - Stringbuilder:8384
+16:59:00.605 [main] TRACE PostfixGenerator - array size:1
+16:59:00.605 [main] TRACE PostfixGenerator - charater by character:9
+16:59:00.607 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.608 [main] TRACE PostfixGenerator - Stringbuilder:83849
+16:59:00.611 [main] TRACE PostfixGenerator - array size:1
+16:59:00.611 [main] TRACE PostfixGenerator - charater by character:4
+16:59:00.612 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.612 [main] TRACE PostfixGenerator - Stringbuilder:838494
+16:59:00.612 [main] TRACE PostfixGenerator - array size:1
+16:59:00.613 [main] TRACE PostfixGenerator - charater by character:9
+16:59:00.613 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77]
+16:59:00.614 [main] TRACE PostfixGenerator - Stringbuilder:8384949
+16:59:00.614 [main] TRACE PostfixGenerator - array size:1
+16:59:00.614 [main] TRACE PostfixGenerator - charater by character:*
+16:59:00.615 [main] TRACE PostfixGenerator - operator by operator:*
+16:59:00.615 [main] TRACE PostfixGenerator - array size:2
+16:59:00.616 [main] TRACE PostfixGenerator - charater by character:5
+16:59:00.616 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77, 8384949]
+16:59:00.616 [main] TRACE PostfixGenerator - Stringbuilder:5
+16:59:00.617 [main] TRACE PostfixGenerator - array size:2
+16:59:00.617 [main] TRACE PostfixGenerator - charater by character:4
+16:59:00.618 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[77, 8384949]
+16:59:00.618 [main] TRACE PostfixGenerator - Stringbuilder:54
+16:59:00.619 [main] DEBUG PostfixGenerator - postfix:[77, 8384949, 54]
+16:59:00.619 [main] DEBUG PostfixGenerator - final postfix:[77, 8384949, 54, *]
+16:59:00.619 [main] DEBUG PostfixGenerator - final postfix:[77, 8384949, 54, *, -]
+16:59:00.620 [main] DEBUG Calculator - take postfix as input to calculate:[77, 8384949, 54, *, -]
+16:59:00.620 [main] DEBUG Calculator - postfix length:5
+16:59:00.620 [main] TRACE Calculator - character by character:77
+16:59:00.621 [main] TRACE Calculator - character number:0
+16:59:00.621 [main] TRACE Calculator - operandstack3:77
+16:59:00.621 [main] TRACE Calculator - character by character:8384949
+16:59:00.622 [main] TRACE Calculator - character number:1
+16:59:00.625 [main] TRACE Calculator - operandstack3:8384949
+16:59:00.627 [main] TRACE Calculator - character by character:54
+16:59:00.628 [main] TRACE Calculator - character number:2
+16:59:00.628 [main] TRACE Calculator - operandstack3:54
+16:59:00.628 [main] TRACE Calculator - character by character:*
+16:59:00.629 [main] TRACE Calculator - character number:3
+16:59:00.629 [main] TRACE Calculator - operandstack.peek():452787246
+16:59:00.630 [main] TRACE Calculator - character by character:-
+16:59:00.630 [main] TRACE Calculator - character number:4
+16:59:00.631 [main] TRACE Calculator - operandstack.peek():-452787169
+16:59:00.631 [main] INFO Calculator - answer:-452787169
+16:59:00.632 [main] INFO Server -  Server Output : 
+ Ok # -452787169
+16:59:00.632 [main] INFO Server - Waiting for a client ...
+16:59:01.574 [main] INFO Server - Client accepted!
+16:59:01.580 [main] INFO Server - ServerInput : 74-8766
+16:59:01.580 [main] TRACE PostfixGenerator - input:74-8766
+16:59:01.582 [main] TRACE PostfixGenerator - array size:0
+16:59:01.583 [main] TRACE PostfixGenerator - charater by character:7
+16:59:01.583 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:01.584 [main] TRACE PostfixGenerator - Stringbuilder:7
+16:59:01.584 [main] TRACE PostfixGenerator - array size:0
+16:59:01.584 [main] TRACE PostfixGenerator - charater by character:4
+16:59:01.585 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:01.585 [main] TRACE PostfixGenerator - Stringbuilder:74
+16:59:01.586 [main] TRACE PostfixGenerator - array size:0
+16:59:01.586 [main] TRACE PostfixGenerator - charater by character:-
+16:59:01.586 [main] TRACE PostfixGenerator - operator by operator:-
+16:59:01.586 [main] TRACE PostfixGenerator - array size:1
+16:59:01.590 [main] TRACE PostfixGenerator - charater by character:8
+16:59:01.595 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[74]
+16:59:01.595 [main] TRACE PostfixGenerator - Stringbuilder:8
+16:59:01.596 [main] TRACE PostfixGenerator - array size:1
+16:59:01.596 [main] TRACE PostfixGenerator - charater by character:7
+16:59:01.597 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[74]
+16:59:01.597 [main] TRACE PostfixGenerator - Stringbuilder:87
+16:59:01.598 [main] TRACE PostfixGenerator - array size:1
+16:59:01.598 [main] TRACE PostfixGenerator - charater by character:6
+16:59:01.598 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[74]
+16:59:01.599 [main] TRACE PostfixGenerator - Stringbuilder:876
+16:59:01.599 [main] TRACE PostfixGenerator - array size:1
+16:59:01.600 [main] TRACE PostfixGenerator - charater by character:6
+16:59:01.600 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[74]
+16:59:01.601 [main] TRACE PostfixGenerator - Stringbuilder:8766
+16:59:01.601 [main] DEBUG PostfixGenerator - postfix:[74, 8766]
+16:59:01.601 [main] DEBUG PostfixGenerator - final postfix:[74, 8766, -]
+16:59:01.602 [main] DEBUG Calculator - take postfix as input to calculate:[74, 8766, -]
+16:59:01.602 [main] DEBUG Calculator - postfix length:3
+16:59:01.602 [main] TRACE Calculator - character by character:74
+16:59:01.603 [main] TRACE Calculator - character number:0
+16:59:01.606 [main] TRACE Calculator - operandstack3:74
+16:59:01.607 [main] TRACE Calculator - character by character:8766
+16:59:01.607 [main] TRACE Calculator - character number:1
+16:59:01.608 [main] TRACE Calculator - operandstack3:8766
+16:59:01.608 [main] TRACE Calculator - character by character:-
+16:59:01.609 [main] TRACE Calculator - character number:2
+16:59:01.609 [main] TRACE Calculator - operandstack.peek():-8692
+16:59:01.609 [main] INFO Calculator - answer:-8692
+16:59:01.610 [main] INFO Server -  Server Output : 
+ Ok # -8692
+16:59:01.611 [main] INFO Server - Waiting for a client ...
+16:59:02.586 [main] INFO Server - Client accepted!
+16:59:02.593 [main] INFO Server - ServerInput : 65-623564+53475
+16:59:02.596 [main] TRACE PostfixGenerator - input:65-623564+53475
+16:59:02.597 [main] TRACE PostfixGenerator - array size:0
+16:59:02.598 [main] TRACE PostfixGenerator - charater by character:6
+16:59:02.599 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:02.599 [main] TRACE PostfixGenerator - Stringbuilder:6
+16:59:02.600 [main] TRACE PostfixGenerator - array size:0
+16:59:02.601 [main] TRACE PostfixGenerator - charater by character:5
+16:59:02.604 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[]
+16:59:02.604 [main] TRACE PostfixGenerator - Stringbuilder:65
+16:59:02.605 [main] TRACE PostfixGenerator - array size:0
+16:59:02.605 [main] TRACE PostfixGenerator - charater by character:-
+16:59:02.606 [main] TRACE PostfixGenerator - operator by operator:-
+16:59:02.607 [main] TRACE PostfixGenerator - array size:1
+16:59:02.607 [main] TRACE PostfixGenerator - charater by character:6
+16:59:02.608 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.608 [main] TRACE PostfixGenerator - Stringbuilder:6
+16:59:02.609 [main] TRACE PostfixGenerator - array size:1
+16:59:02.609 [main] TRACE PostfixGenerator - charater by character:2
+16:59:02.609 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.610 [main] TRACE PostfixGenerator - Stringbuilder:62
+16:59:02.610 [main] TRACE PostfixGenerator - array size:1
+16:59:02.611 [main] TRACE PostfixGenerator - charater by character:3
+16:59:02.611 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.612 [main] TRACE PostfixGenerator - Stringbuilder:623
+16:59:02.612 [main] TRACE PostfixGenerator - array size:1
+16:59:02.613 [main] TRACE PostfixGenerator - charater by character:5
+16:59:02.613 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.614 [main] TRACE PostfixGenerator - Stringbuilder:6235
+16:59:02.614 [main] TRACE PostfixGenerator - array size:1
+16:59:02.614 [main] TRACE PostfixGenerator - charater by character:6
+16:59:02.615 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.615 [main] TRACE PostfixGenerator - Stringbuilder:62356
+16:59:02.615 [main] TRACE PostfixGenerator - array size:1
+16:59:02.616 [main] TRACE PostfixGenerator - charater by character:4
+16:59:02.618 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65]
+16:59:02.619 [main] TRACE PostfixGenerator - Stringbuilder:623564
+16:59:02.619 [main] TRACE PostfixGenerator - array size:1
+16:59:02.620 [main] TRACE PostfixGenerator - charater by character:+
+16:59:02.620 [main] TRACE PostfixGenerator - operator by operator:+
+16:59:02.621 [main] TRACE PostfixGenerator - array size:3
+16:59:02.621 [main] TRACE PostfixGenerator - charater by character:5
+16:59:02.621 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65, 623564, -]
+16:59:02.623 [main] TRACE PostfixGenerator - Stringbuilder:5
+16:59:02.623 [main] TRACE PostfixGenerator - array size:3
+16:59:02.623 [main] TRACE PostfixGenerator - charater by character:3
+16:59:02.624 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65, 623564, -]
+16:59:02.624 [main] TRACE PostfixGenerator - Stringbuilder:53
+16:59:02.624 [main] TRACE PostfixGenerator - array size:3
+16:59:02.625 [main] TRACE PostfixGenerator - charater by character:4
+16:59:02.625 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65, 623564, -]
+16:59:02.625 [main] TRACE PostfixGenerator - Stringbuilder:534
+16:59:02.625 [main] TRACE PostfixGenerator - array size:3
+16:59:02.626 [main] TRACE PostfixGenerator - charater by character:7
+16:59:02.626 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65, 623564, -]
+16:59:02.626 [main] TRACE PostfixGenerator - Stringbuilder:5347
+16:59:02.627 [main] TRACE PostfixGenerator - array size:3
+16:59:02.627 [main] TRACE PostfixGenerator - charater by character:5
+16:59:02.627 [main] TRACE PostfixGenerator - postfix after taking operands and operators1:[65, 623564, -]
+16:59:02.628 [main] TRACE PostfixGenerator - Stringbuilder:53475
+16:59:02.628 [main] DEBUG PostfixGenerator - postfix:[65, 623564, -, 53475]
+16:59:02.628 [main] DEBUG PostfixGenerator - final postfix:[65, 623564, -, 53475, +]
+16:59:02.629 [main] DEBUG Calculator - take postfix as input to calculate:[65, 623564, -, 53475, +]
+16:59:02.629 [main] DEBUG Calculator - postfix length:5
+16:59:02.629 [main] TRACE Calculator - character by character:65
+16:59:02.629 [main] TRACE Calculator - character number:0
+16:59:02.630 [main] TRACE Calculator - operandstack3:65
+16:59:02.630 [main] TRACE Calculator - character by character:623564
+16:59:02.631 [main] TRACE Calculator - character number:1
+16:59:02.634 [main] TRACE Calculator - operandstack3:623564
+16:59:02.636 [main] TRACE Calculator - character by character:-
+16:59:02.636 [main] TRACE Calculator - character number:2
+16:59:02.637 [main] TRACE Calculator - operandstack.peek():-623499
+16:59:02.637 [main] TRACE Calculator - character by character:53475
+16:59:02.637 [main] TRACE Calculator - character number:3
+16:59:02.638 [main] TRACE Calculator - operandstack3:53475
+16:59:02.638 [main] TRACE Calculator - character by character:+
+16:59:02.639 [main] TRACE Calculator - character number:4
+16:59:02.640 [main] TRACE Calculator - operandstack.peek():-570024
+16:59:02.640 [main] INFO Calculator - answer:-570024
+16:59:02.641 [main] INFO Server -  Server Output : 
+ Ok # -570024
+16:59:02.641 [main] INFO Server - Waiting for a client ...
