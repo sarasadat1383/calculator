@@ -1,6 +1,0 @@
-unsupported operator:^
-323
-unsupported operator:^
--17702
-705190
-1500
