@@ -1,0 +1,89 @@
+16:19:21.19 [main] TRACE m.c.myCalculator.client.Client - filesListLength:3
+16:19:21.29 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.2.txt
+16:19:21.38 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.38 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 8+2*10
+16:19:21.49 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 28
+16:19:21.49 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  28
+16:19:21.49 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.49 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 5-4*2
+16:19:21.69 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -3
+16:19:21.69 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  -3
+16:19:21.69 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.69 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 9864/2+34-8739*667/5+6578-8963+872*787*600/100
+16:19:21.89 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2954383
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  2954383
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 74@76 
+16:19:21.89 [main] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # @
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.89 [main] INFO m.c.m.client.FileCalculator - ClientRequest : (3*2+8/4)
+16:19:21.99 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 8
+16:19:21.99 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  8
+16:19:21.99 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.109 [main] INFO m.c.m.client.FileCalculator - ClientRequest : (18/2*2+5*3-2)
+16:19:21.109 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 31
+16:19:21.109 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  31
+16:19:21.109 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.109 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 8932/2+(890-7643)*65+22/11
+16:19:21.119 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -434477
+16:19:21.119 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  -434477
+16:19:21.119 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.119 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 673*324-783+(3692-764+7842/2)-9090*54
+16:19:21.129 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -266742
+16:19:21.129 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  -266742
+16:19:21.129 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.129 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 4682/2+(45-738)*23
+16:19:21.149 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -13598
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  -13598
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 8900/5*42343-(982/2-545+767-9363)*222/111+934/(2-4206420)/10+(6735*52400/242-686-860098)+43/(85353*4-3455990)-312
+16:19:21.149 [main] TRACE m.c.m.client.FileCalculator - Client Input : InvalidExpressionLength # 113
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your entered expressions length is invalid!
+16:19:21.149 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.3.txt
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 689340+87490
+16:19:21.149 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 776830
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  776830
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.149 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 984/2
+16:19:21.159 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 492
+16:19:21.169 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  492
+16:19:21.169 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.169 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 648303-7783933
+16:19:21.174 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -7135630
+16:19:21.174 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  -7135630
+16:19:21.174 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.174 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 87895*234
+16:19:21.174 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 20567430
+16:19:21.174 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  20567430
+16:19:21.174 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.4.txt
+16:19:21.179 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.184 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 60+11+167+12+39+240
+16:19:21.189 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 529
+16:19:21.189 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  529
+16:19:21.189 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.189 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 738854/2*84748*9043034-6473829+76739-271921*35627
+16:19:21.199 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1686421579
+16:19:21.199 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  1686421579
+16:19:21.199 [main] INFO m.c.m.client.FileCalculator - Connected!
+16:19:21.209 [main] INFO m.c.m.client.FileCalculator - ClientRequest : 86775*52/2
+16:19:21.209 [main] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2256150
+16:19:21.209 [main] INFO m.c.m.client.FileCalculator - ClientOutput : 
+ Your final answer is :  2256150

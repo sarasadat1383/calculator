@@ -1,0 +1,1628 @@
+16:19:20.319 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.38 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.38 [main] INFO m.c.myCalculator.server.Server - ServerInput : 8+2*10
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - input:8+2*10
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8]
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:2
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8, 2]
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - array size:2
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8, 2]
+16:19:21.49 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:10
+16:19:21.49 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[8, 2, 10]
+16:19:21.49 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[8, 2, 10, *]
+16:19:21.49 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[8, 2, 10, *, +]
+16:19:21.49 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[8, 2, 10, *, +]
+16:19:21.49 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:5
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character by character:8
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:8
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character by character:10
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:10
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():20
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.49 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():28
+16:19:21.49 [main] INFO m.c.myCalculator.server.Calculator - answer:28
+16:19:21.49 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 28
+16:19:21.49 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.49 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.59 [main] INFO m.c.myCalculator.server.Server - ServerInput : 5-4*2
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - input:5-4*2
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:5
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[5]
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:4
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.61 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:2
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[5, 4]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.69 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[5, 4, 2]
+16:19:21.69 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[5, 4, 2, *]
+16:19:21.69 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[5, 4, 2, *, -]
+16:19:21.69 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[5, 4, 2, *, -]
+16:19:21.69 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:5
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character by character:5
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:5
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character by character:4
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:4
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():8
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.69 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-3
+16:19:21.69 [main] INFO m.c.myCalculator.server.Calculator - answer:-3
+16:19:21.69 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # -3
+16:19:21.69 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.69 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.69 [main] INFO m.c.myCalculator.server.Server - ServerInput : 9864/2+34-8739*667/5+6578-8963+872*787*600/100
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - input:9864/2+34-8739*667/5+6578-8963+872*787*600/100
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:98
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:986
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9864
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:34
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:873
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8739
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:66
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:667
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:65
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:657
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6578
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +]
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:89
+16:19:21.69 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.79 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:896
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8963
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:15
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:15
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:15
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:872
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:15
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:16
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:16
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:78
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:16
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:787
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:16
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:18
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:18
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:60
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:18
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:600
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:18
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:20
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:20
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:10
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - array size:20
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *]
+16:19:21.84 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:100
+16:19:21.84 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *, 100]
+16:19:21.84 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *, 100, /]
+16:19:21.84 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *, 100, /, +]
+16:19:21.84 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[9864, 2, /, 34, +, 8739, 667, *, 5, /, -, 6578, +, 8963, -, 872, 787, *, 600, *, 100, /, +]
+16:19:21.84 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:23
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - character by character:9864
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:9864
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.84 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():4932
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:34
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:34
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():4966
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:8739
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:8739
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:667
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:667
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():5828913
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:5
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:5
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():1165782
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1160816
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:6578
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:11
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:6578
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:12
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1154238
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:8963
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:13
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:8963
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:14
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1163201
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:872
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:15
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:872
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:787
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:16
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:787
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:17
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():686264
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:600
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:18
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:600
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:19
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():411758400
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:100
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:20
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:100
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:21
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():4117584
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - character number:22
+16:19:21.89 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2954383
+16:19:21.89 [main] INFO m.c.myCalculator.server.Calculator - answer:2954383
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 2954383
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - ServerInput : 74@76 
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - input:74@76 
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:74
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:@
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - ServerOutput : 
+ UnsupportedOperatorException # @
+
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.89 [main] INFO m.c.myCalculator.server.Server - ServerInput : (3*2+8/4)
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - input:(3*2+8/4)
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:(
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[3]
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.89 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[3, 2, *]
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[3, 2, *, 8]
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:4
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.99 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:)
+16:19:21.99 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[3, 2, *, 8, 4, /, +]
+16:19:21.99 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:7
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:3
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:3
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():6
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:8
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:8
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:4
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:4
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.99 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():8
+16:19:21.99 [main] INFO m.c.myCalculator.server.Calculator - answer:8
+16:19:21.99 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 8
+16:19:21.99 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.99 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.109 [main] INFO m.c.myCalculator.server.Server - ServerInput : (18/2*2+5*3-2)
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - input:(18/2*2+5*3-2)
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:(
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:18
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[18]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[18, 2, /]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[18, 2, /, 2, *]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:5
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[18, 2, /, 2, *, 5]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[18, 2, /, 2, *, 5, 3, *, +]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:)
+16:19:21.109 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[18, 2, /, 2, *, 5, 3, *, +, 2, -]
+16:19:21.109 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:11
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:18
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:18
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():9
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():18
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:5
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:5
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:3
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:3
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():15
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():33
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.109 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():31
+16:19:21.109 [main] INFO m.c.myCalculator.server.Calculator - answer:31
+16:19:21.109 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 31
+16:19:21.109 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.109 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.109 [main] INFO m.c.myCalculator.server.Server - ServerInput : 8932/2+(890-7643)*65+22/11
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - input:8932/2+(890-7643)*65+22/11
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:89
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:893
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8932
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:(
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:89
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:890
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:76
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:764
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7643
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:)
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:65
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -, 65, *, +]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -, 65, *, +]
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:22
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - array size:10
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.109 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -, 65, *, +, 22]
+16:19:21.119 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.119 [main] TRACE m.c.m.server.PostfixGenerator - array size:10
+16:19:21.119 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.119 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[8932, 2, /, 890, 7643, -, 65, *, +, 22]
+16:19:21.119 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:11
+16:19:21.119 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[8932, 2, /, 890, 7643, -, 65, *, +, 22, 11]
+16:19:21.119 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[8932, 2, /, 890, 7643, -, 65, *, +, 22, 11, /]
+16:19:21.119 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[8932, 2, /, 890, 7643, -, 65, *, +, 22, 11, /, +]
+16:19:21.119 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[8932, 2, /, 890, 7643, -, 65, *, +, 22, 11, /, +]
+16:19:21.119 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:13
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:8932
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:8932
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():4466
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:890
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:890
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:7643
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:7643
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-6753
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:65
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:65
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-438945
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-434479
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:22
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:22
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:11
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:11
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:11
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - character number:12
+16:19:21.119 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-434477
+16:19:21.119 [main] INFO m.c.myCalculator.server.Calculator - answer:-434477
+16:19:21.119 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # -434477
+16:19:21.119 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.119 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.119 [main] INFO m.c.myCalculator.server.Server - ServerInput : 673*324-783+(3692-764+7842/2)-9090*54
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - input:673*324-783+(3692-764+7842/2)-9090*54
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:67
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:673
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:32
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:324
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:78
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:783
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:(
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:36
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:369
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3692
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:76
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:764
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:78
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:784
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7842
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:)
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:90
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:909
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9090
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:13
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:14
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:5
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:14
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:54
+16:19:21.129 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090, 54]
+16:19:21.129 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090, 54, *]
+16:19:21.129 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090, 54, *, -]
+16:19:21.129 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[673, 324, *, 783, -, 3692, 764, -, 7842, 2, /, +, +, 9090, 54, *, -]
+16:19:21.129 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:17
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:673
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:673
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:324
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:324
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():218052
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:783
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:783
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():217269
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:3692
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:3692
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:764
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:764
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2928
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:7842
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:7842
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():3921
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:11
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():6849
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:12
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():224118
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:9090
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:13
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:9090
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:54
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:14
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:54
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:15
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():490860
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - character number:16
+16:19:21.129 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-266742
+16:19:21.129 [main] INFO m.c.myCalculator.server.Calculator - answer:-266742
+16:19:21.129 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # -266742
+16:19:21.129 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.129 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.129 [main] INFO m.c.myCalculator.server.Server - ServerInput : 4682/2+(45-738)*23
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - input:4682/2+(45-738)*23
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:4
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:46
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:468
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:4682
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.129 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:(
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:45
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /, 45]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /, 45]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:73
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /, 45]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:738
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:4
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:)
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /, 45, 738, -]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - array size:6
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[4682, 2, /, 45, 738, -]
+16:19:21.139 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:23
+16:19:21.139 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[4682, 2, /, 45, 738, -, 23]
+16:19:21.139 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[4682, 2, /, 45, 738, -, 23, *]
+16:19:21.139 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[4682, 2, /, 45, 738, -, 23, *, +]
+16:19:21.139 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[4682, 2, /, 45, 738, -, 23, *, +]
+16:19:21.139 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:9
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character by character:4682
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:4682
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.139 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2341
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:45
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:45
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:738
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:738
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-693
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:23
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:23
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-15939
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-13598
+16:19:21.149 [main] INFO m.c.myCalculator.server.Calculator - answer:-13598
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # -13598
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - ServerInput : 8900/5*42343-(982/2-545+767-9363)*222/111+934/(2-4206420)/10+(6735*52400/242-686-860098)+43/(85353*4-3455990)-312
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - ServerOutput : 
+ InvalidExpressionLength # 113
+
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - ServerInput : 689340+87490
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - input:689340+87490
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:68
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:689
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6893
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:68934
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:689340
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[689340]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[689340]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[689340]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:874
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[689340]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8749
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[689340]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87490
+16:19:21.149 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[689340, 87490]
+16:19:21.149 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[689340, 87490, +]
+16:19:21.149 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[689340, 87490, +]
+16:19:21.149 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:3
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:689340
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:689340
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:87490
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:87490
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.149 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():776830
+16:19:21.149 [main] INFO m.c.myCalculator.server.Calculator - answer:776830
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 776830
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.149 [main] INFO m.c.myCalculator.server.Server - ServerInput : 984/2
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - input:984/2
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:98
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.149 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:984
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[984]
+16:19:21.159 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.159 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[984, 2]
+16:19:21.159 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[984, 2, /]
+16:19:21.159 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[984, 2, /]
+16:19:21.159 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:3
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character by character:984
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:984
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.159 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():492
+16:19:21.159 [main] INFO m.c.myCalculator.server.Calculator - answer:492
+16:19:21.159 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 492
+16:19:21.159 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.169 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.169 [main] INFO m.c.myCalculator.server.Server - ServerInput : 648303-7783933
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - input:648303-7783933
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:64
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:648
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6483
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:64830
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:648303
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:77
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:778
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7783
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:77839
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:778393
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[648303]
+16:19:21.169 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7783933
+16:19:21.169 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[648303, 7783933]
+16:19:21.169 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[648303, 7783933, -]
+16:19:21.169 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[648303, 7783933, -]
+16:19:21.169 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:3
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character by character:648303
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:648303
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character by character:7783933
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:7783933
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.169 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-7135630
+16:19:21.169 [main] INFO m.c.myCalculator.server.Calculator - answer:-7135630
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # -7135630
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server - ServerInput : 87895*234
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - input:87895*234
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:878
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8789
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:87895
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[87895]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[87895]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:23
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[87895]
+16:19:21.174 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:234
+16:19:21.174 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[87895, 234]
+16:19:21.174 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[87895, 234, *]
+16:19:21.174 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[87895, 234, *]
+16:19:21.174 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:3
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character by character:87895
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:87895
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character by character:234
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:234
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.174 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():20567430
+16:19:21.174 [main] INFO m.c.myCalculator.server.Calculator - answer:20567430
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 20567430
+16:19:21.174 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.179 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.184 [main] INFO m.c.myCalculator.server.Server - ServerInput : 60+11+167+12+39+240
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - input:60+11+167+12+39+240
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:60
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:11
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:16
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:167
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:1
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:12
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +, 12, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +, 12, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:39
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +, 12, +, 39, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +, 12, +, 39, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:24
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[60, 11, +, 167, +, 12, +, 39, +]
+16:19:21.184 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:240
+16:19:21.184 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[60, 11, +, 167, +, 12, +, 39, +, 240]
+16:19:21.184 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[60, 11, +, 167, +, 12, +, 39, +, 240, +]
+16:19:21.184 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[60, 11, +, 167, +, 12, +, 39, +, 240, +]
+16:19:21.184 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:11
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character by character:60
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:60
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character by character:11
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:11
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.184 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():71
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:167
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:167
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():238
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:12
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:12
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():250
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:39
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:39
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():289
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:240
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:240
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.189 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():529
+16:19:21.189 [main] INFO m.c.myCalculator.server.Calculator - answer:529
+16:19:21.189 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 529
+16:19:21.189 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.189 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.189 [main] INFO m.c.myCalculator.server.Server - ServerInput : 738854/2*84748*9043034-6473829+76739-271921*35627
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - input:738854/2*84748*9043034-6473829+76739-271921*35627
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:73
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:738
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7388
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:73885
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:738854
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:84
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:847
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8474
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:84748
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:90
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:904
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9043
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:0
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:90430
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:904303
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:9043034
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:4
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:64
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:647
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6473
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:64738
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:647382
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:6473829
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:+
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:+
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:76
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:767
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:7673
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:76739
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:-
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:-
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:27
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:271
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:9
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2719
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:27192
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:1
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:271921
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:11
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:35
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921]
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:356
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.189 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921]
+16:19:21.199 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:3562
+16:19:21.199 [main] TRACE m.c.m.server.PostfixGenerator - array size:12
+16:19:21.199 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.199 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921]
+16:19:21.199 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:35627
+16:19:21.199 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921, 35627]
+16:19:21.199 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921, 35627, *]
+16:19:21.199 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921, 35627, *, -]
+16:19:21.199 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[738854, 2, /, 84748, *, 9043034, *, 6473829, -, 76739, +, 271921, 35627, *, -]
+16:19:21.199 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:15
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:738854
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:738854
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():369427
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:84748
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:84748
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():1243428324
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:9043034
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:5
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:9043034
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:6
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1504353752
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:6473829
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:7
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:6473829
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:8
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1510827581
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:76739
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:9
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:76739
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:+
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:10
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():-1510750842
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:271921
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:11
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:271921
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:35627
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:12
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:35627
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:13
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():1097794875
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character by character:-
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - character number:14
+16:19:21.199 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():1686421579
+16:19:21.199 [main] INFO m.c.myCalculator.server.Calculator - answer:1686421579
+16:19:21.199 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 1686421579
+16:19:21.199 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
+16:19:21.199 [main] INFO m.c.myCalculator.server.Server - Client accepted!
+16:19:21.209 [main] INFO m.c.myCalculator.server.Server - ServerInput : 86775*52/2
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - input:86775*52/2
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:8
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:6
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:86
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:867
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:7
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:8677
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:86775
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:0
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:*
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:*
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:5
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[86775]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:5
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[86775]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:52
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:1
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:/
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - operator by operator:/
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - array size:3
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - charater by character:2
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - postfix after taking operands and operators1:[86775, 52, *]
+16:19:21.209 [main] TRACE m.c.m.server.PostfixGenerator - Stringbuilder:2
+16:19:21.209 [main] DEBUG m.c.m.server.PostfixGenerator - postfix:[86775, 52, *, 2]
+16:19:21.209 [main] DEBUG m.c.m.server.PostfixGenerator - final postfix:[86775, 52, *, 2, /]
+16:19:21.209 [main] DEBUG m.c.myCalculator.server.Calculator - take postfix as input to calculate:[86775, 52, *, 2, /]
+16:19:21.209 [main] DEBUG m.c.myCalculator.server.Calculator - postfix length:5
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character by character:86775
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character number:0
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:86775
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character by character:52
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character number:1
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:52
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character by character:*
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character number:2
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():4512300
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character by character:2
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character number:3
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - operandstack3:2
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character by character:/
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - character number:4
+16:19:21.209 [main] TRACE m.c.myCalculator.server.Calculator - operandstack.peek():2256150
+16:19:21.209 [main] INFO m.c.myCalculator.server.Calculator - answer:2256150
+16:19:21.209 [main] INFO m.c.myCalculator.server.Server -  Server Output : 
+ Ok # 2256150
+16:19:21.209 [main] INFO m.c.myCalculator.server.Server - Waiting for a client ...
