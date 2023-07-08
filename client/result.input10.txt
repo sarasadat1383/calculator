@@ -1,0 +1,17 @@
+43567+(456456-34634+3636*54)+435 Is a expression and the final answer is :  662168
+345346+(5636/464/456+46456)*456456 Is a expression and the final answer is :  -269371198
+5645457-4646+45646+9756+567 Is a expression and the final answer is :  5696780
+Your entered operator is unsupported!
+7657568/768678-978945+464 Is a expression and the final answer is :  -978472
+8536346/85856-786-56336+858578 Is a expression and the final answer is :  801555
+584564-85856+5856-856/865656 Is a expression and the final answer is :  504564
+454-5768-856734+856-8568/5656 Is a expression and the final answer is :  -861193
+8547478/56756756+878758-54454 Is a expression and the final answer is :  824304
+Your entered operator is unsupported!
+467457-457858+564-400*5696*4636 Is a expression and the final answer is :  -1972717645
+5654-6544+577*34635321 Is a expression and the final answer is :  -1490257153
+858688-45754758+68463*56457-74 Is a expression and the final answer is :  -474647849
+Your entered operator is unsupported!
+764+7488-74745 Is a expression and the final answer is :  -66493
+5745-7457-74745+845757/747/474/4/74 Is a expression and the final answer is :  -76457
+747478-7878+7856 Is a expression and the final answer is :  747456

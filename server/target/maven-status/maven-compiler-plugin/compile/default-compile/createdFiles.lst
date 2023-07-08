@@ -1,11 +1,12 @@
-operators\OperatorFactory.class
 operators\Division.class
 operators\UnsupportedOperatorException.class
 operators\InvalidExpressionLength.class
+operators\Subtraction.class
+multiThreadedCalculator\calculator\myCalculator\server\Server.class
+operators\OperatorFactory.class
+multiThreadedCalculator\calculator\myCalculator\server\ServerRunnable.class
 operators\Addition.class
 multiThreadedCalculator\calculator\myCalculator\server\Calculator.class
 operators\Operator.class
-operators\Subtraction.class
 multiThreadedCalculator\calculator\myCalculator\server\PostfixGenerator.class
-multiThreadedCalculator\calculator\myCalculator\server\Server.class
 operators\Multiplication.class

@@ -4,10 +4,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.*;
 import java.net.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.*;
 import java.lang.*;
 
-public class FileCalculator {
+public class FileCalculator implements Runnable {
 	private static Logger logger = LoggerFactory.getLogger(FileCalculator.class.getName());
 	private  File file;
 	Socket clientSocket= null ;
@@ -17,8 +19,10 @@ public class FileCalculator {
 	public FileCalculator(File file ){
 		this.file = file;
 	}
-	
-	public void fileCalculate() {
+	public void run() {
+		calculate();
+	}		
+	public void calculate(){
 		try  { 
 			FileReader filereader = new FileReader(file );   //reads the file  
 			FileWriter filewriter = new FileWriter("result." + file.getName());
@@ -26,6 +30,7 @@ public class FileCalculator {
 			String inputLine;  // read until end of file
 			String answer ;
 			String clientInput;
+			
 			while((inputLine = bufferdreader.readLine())!=null) {
 				clientSocket = new Socket("localhost", 65534); 
 				logger.info("Connected!");
@@ -40,7 +45,7 @@ public class FileCalculator {
 				
 				if(responseStatus.equals("Ok ")){
 					String responseMessage = tokens[1];
-					answer = "Your final answer is : "+ responseMessage ;
+					answer = inputLine + " Is a expression and the final answer is : "+ responseMessage ;
 					logger.info("ClientOutput : \n "+ answer); 
 					filewriter.write(answer+"\n");
 				}
@@ -55,9 +60,10 @@ public class FileCalculator {
 					logger.info("ClientOutput : \n "+ answer); 
 					filewriter.write(answer +"\n");
 				}
+				
 			}
 			filereader.close();    //closes the stream and release the resources that were busy in stream
-			filewriter.close();			
+			filewriter.close();					
 		}	
 		catch( UnknownHostException e ){
 			logger.error( "unknown host:"+e);

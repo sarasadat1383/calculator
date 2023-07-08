@@ -2,6 +2,8 @@ package multiThreadedCalculator.calculator.myCalculator.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 import java.util.*;
 import java.lang.*;
 import operators.*;
