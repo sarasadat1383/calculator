@@ -3,6 +3,7 @@ operators\UnsupportedOperatorException.class
 operators\InvalidExpressionLength.class
 operators\Subtraction.class
 multiThreadedCalculator\calculator\myCalculator\server\Server.class
+multiThreadedCalculator\calculator\myCalculator\server\CommonMethodFunction.class
 operators\OperatorFactory.class
 multiThreadedCalculator\calculator\myCalculator\server\ServerRunnable.class
 operators\Addition.class

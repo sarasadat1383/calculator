@@ -6,9 +6,9 @@ import java.util.*;
 import java.lang.*;
 import operators.*;
 
-public class PostfixGenerator{
+public class PostfixGenerator {
 	private static Logger logger = LoggerFactory.getLogger(PostfixGenerator.class.getName());
-	public List<String> convertingInfixToPostfix(String inputLine) throws UnsupportedOperatorException {
+	public List<String> convertingInfixToPostfix(String inputLine) throws UnsupportedOperatorException {		
 		OperatorFactory factoryOperator = new OperatorFactory();
 		List<String> array = new ArrayList<>();
 		Stack <String> operatorstack = new Stack<>();
@@ -39,8 +39,8 @@ public class PostfixGenerator{
 			else {
 				Operator currentOperator = factoryOperator.generateOperator(character);
 				if(stringbuilder.length()>0){
-				array.add(stringbuilder.toString());
-				stringbuilder.setLength(0);
+					array.add(stringbuilder.toString());
+					stringbuilder.setLength(0);
 				}
 				logger.trace("operator by operator:" + character);
 				if( operatorstack.isEmpty()){

@@ -35,8 +35,8 @@ public class Calculator {
 		return operandstack.pop();
 	}
 	public int compute(String inputLine) throws UnsupportedOperatorException,InvalidExpressionLength {	
-		PostfixGenerator postfixGenerate = new PostfixGenerator();
-		List<String> tokens = postfixGenerate.convertingInfixToPostfix(inputLine);
+		CommonMethodFunction function = new CommonMethodFunction();
+		List<String> tokens = function.convertingInfixToPostfix(inputLine);
 		return calculate(tokens);
 	}
 }

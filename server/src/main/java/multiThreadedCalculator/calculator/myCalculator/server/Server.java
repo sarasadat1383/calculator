@@ -18,7 +18,6 @@ public class Server {
 		Socket clientSocket = null ; 
 		BufferedReader serverInputStream = null;
 	    PrintStream serverOutputStream= null ; 
-		Object object = new Object();
 		Integer counter=0;
 		try {
 			serverSocket = new ServerSocket(65534);
