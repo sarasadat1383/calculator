@@ -1,0 +1,15 @@
+76543+8484*93875/2 Is a expression and the final answer is :  398294293
+74839-8474+7847478 Is a expression and the final answer is :  7913843
+567*543*654*654 Is a expression and the final answer is :  -1458356380
+78494/784/344/34+433 Is a expression and the final answer is :  433
+67893-8374-6373+393 Is a expression and the final answer is :  53539
+73930*976*040-543 Is a expression and the final answer is :  -1408740639
+7894+654*9540/65-654+54 Is a expression and the final answer is :  103281
+8395*6543+6543+543-543 Is a expression and the final answer is :  54935028
+234-6363+365/5363*3563 Is a expression and the final answer is :  -6129
+Your entered operator is unsupported!
+Your entered expressions length is invalid!
+Your entered operator is unsupported!
+4545-2523/345534*545-2542452 Is a expression and the final answer is :  -2537907
+6543234/456*345345-46346+345 Is a expression and the final answer is :  660342108
+45252+42524-23545/23542 Is a expression and the final answer is :  87775
