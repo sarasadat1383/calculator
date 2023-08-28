@@ -10,8 +10,14 @@ import operators.*;
 
 public class Calculator {
 	private static Logger logger = LoggerFactory.getLogger(Calculator.class.getName());
+	private OperatorFactory factoryOperator;
+	private PostfixGeneratorProxy postfixGeneratorProxy;
+	public Calculator(OperatorFactory factoryOperator, PostfixGeneratorProxy postfixGeneratorProxy ) {
+		logger.debug( "Entered Calculator constructor!"); 
+		this.factoryOperator = factoryOperator;
+		this.postfixGeneratorProxy = postfixGeneratorProxy;
+	}
 	private int calculate( List<String> tokens) throws UnsupportedOperatorException {
-		OperatorFactory OperatorGenerator = new OperatorFactory();
 		Stack<Integer> operandstack = new Stack<>();
 		logger.debug("take postfix as input to calculate:" + tokens);
 		logger.debug("postfix length:" + tokens.size());
@@ -26,7 +32,7 @@ public class Calculator {
 			else { 
 				int number2= operandstack.pop();
 				int number1= operandstack.pop();
-				Operator myOperator = OperatorGenerator.generateOperator(myCharacter); 
+				Operator myOperator = factoryOperator.generateOperator(myCharacter); 
 				operandstack.push(myOperator.operate(number1,number2));
 				logger.trace("operandstack.peek():"+ operandstack.peek());
 			}
@@ -35,8 +41,8 @@ public class Calculator {
 		return operandstack.pop();
 	}
 	public int compute(String inputLine) throws UnsupportedOperatorException,InvalidExpressionLength {	
-		CommonMethodFunction function = new CommonMethodFunction();
-		List<String> tokens = function.convertingInfixToPostfix(inputLine);
+		List<String> tokens = postfixGeneratorProxy.convertingInfixToPostfix(inputLine);
+		logger.info("Entered compute method!");
 		return calculate(tokens);
 	}
 }

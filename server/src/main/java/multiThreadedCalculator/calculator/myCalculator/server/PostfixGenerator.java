@@ -8,8 +8,14 @@ import operators.*;
 
 public class PostfixGenerator {
 	private static Logger logger = LoggerFactory.getLogger(PostfixGenerator.class.getName());
-	public List<String> convertingInfixToPostfix(String inputLine) throws UnsupportedOperatorException {		
-		OperatorFactory factoryOperator = new OperatorFactory();
+	private OperatorFactory factoryOperator;
+	public PostfixGenerator(OperatorFactory factoryOperator) {
+		logger.debug("Entered PostfixGenerator constructor!");
+		this.factoryOperator = factoryOperator;
+		logger.debug("factoryOperator reference : "+ factoryOperator );
+	}
+	public List<String> convertingInfixToPostfix(String inputLine) throws UnsupportedOperatorException {
+		logger.info("entered class PostfixGenerator");		
 		List<String> array = new ArrayList<>();
 		Stack <String> operatorstack = new Stack<>();
 		StringBuilder stringbuilder = new StringBuilder();

@@ -8,8 +8,14 @@ import java.util.*;
 import java.lang.*;
 import operators.*;
 
-public class CommonMethodFunction extends PostfixGenerator {
-	private static Logger logger = LoggerFactory.getLogger(CommonMethodFunction.class.getName());
+public class PostfixGeneratorProxy extends PostfixGenerator {
+	private static Logger logger = LoggerFactory.getLogger(PostfixGeneratorProxy.class.getName());
+	
+	public PostfixGeneratorProxy(OperatorFactory factoryOperator){
+		super(factoryOperator);
+		logger.debug( "Entered  PostfixGeneratorProxy constructor!");
+		logger.debug("factoryOperator reference : "+ factoryOperator );
+	}
 	public List<String> convertingInfixToPostfix(String inputLine) throws UnsupportedOperatorException {
 		List<String> tokens = super.convertingInfixToPostfix( inputLine);
 		logger.info("Entered convertingInfixToPostfix method!" );

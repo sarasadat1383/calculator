@@ -1,0 +1,17 @@
+-Xajruntimetarget:1.5
+-11
+-encoding
+UTF-8
+-source
+11
+-target
+11
+-classpath
+C:\Users\S.Hoseini\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\S.Hoseini\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\S.Hoseini\.m2\repository\org\aspectj\aspectjrt\1.9.7\aspectjrt-1.9.7.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-context\5.3.29\spring-context-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-aop\5.3.29\spring-aop-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-beans\5.3.29\spring-beans-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-expression\5.3.29\spring-expression-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-core\5.3.29\spring-core-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\org\springframework\spring-jcl\5.3.29\spring-jcl-5.3.29.jar;C:\Users\S.Hoseini\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\S.Hoseini\.m2\repository\ch\qos\logback\logback-access\1.3.7\logback-access-1.3.7.jar;C:\projects\client\target\classes
+-d
+C:\projects\client\target\classes
+-s
+C:\projects\client\target\generated-sources\aspectj-maven-plugin
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\Client.java
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\FileCalculator.java
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\Main.java

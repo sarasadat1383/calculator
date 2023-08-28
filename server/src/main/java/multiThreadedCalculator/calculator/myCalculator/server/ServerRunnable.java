@@ -10,7 +10,8 @@ import java.lang.*;
 import operators.*;
 
 public class ServerRunnable implements Runnable{
-	private static Logger logger = LoggerFactory.getLogger(Server.class.getName());
+	private static Logger logger = LoggerFactory.getLogger(ServerRunnable.class.getName());
+	private  Calculator calculator; 
 	ServerSocket serverSocket ;
 	Socket clientSocket  ;
 	BufferedReader serverInputStream = null;
@@ -18,21 +19,22 @@ public class ServerRunnable implements Runnable{
 	String line;
 	String answer ="";
 	int result;
-	int counter;
-	Calculator calculator = new Calculator();
-	Object object = new Object();
-	
-	public ServerRunnable(Socket clientSocket) {
+	int counter;	
+	public ServerRunnable(Socket clientSocket,Calculator calculator ) {
+		logger.debug( "Entered ServerRunnale constructor!");
         this.clientSocket = clientSocket;
+		this.calculator= calculator;
     }
-	
+
 	public void run() {
+		calculate();
+	}
+	public void calculate(){
 		try {
-		serverInputStream = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
-		serverOutputStream = new PrintStream(clientSocket.getOutputStream());
-		line = serverInputStream.readLine();
-		logger.info("ServerInput : "+ line );
-			
+			serverInputStream = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));  
+			serverOutputStream = new PrintStream(clientSocket.getOutputStream());
+			line = serverInputStream.readLine();
+			logger.info("ServerInput : "+ line );
 			if( line.length()>55){
 				throw(new InvalidExpressionLength("InvalidExpressionLength =>" , line.length())); 
 			}

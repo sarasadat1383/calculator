@@ -3,11 +3,13 @@ C:\projects\server\src\main\java\operators\Subtraction.java
 C:\projects\server\src\main\java\operators\InvalidExpressionLength.java
 C:\projects\server\src\main\java\operators\Addition.java
 C:\projects\server\src\main\java\operators\Operator.java
+C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\Main.java
 C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\ServerRunnable.java
 C:\projects\server\src\main\java\operators\OperatorFactory.java
 C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\Calculator.java
 C:\projects\server\src\main\java\operators\Division.java
 C:\projects\server\src\main\java\operators\Multiplication.java
+C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\PostfixGeneratorProxy.java
 C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\Server.java
-C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\CommonMethodFunction.java
+C:\projects\server\src\main\java\multiThreadedCalculator\calculator\myCalculator\server\LoggerAspect.java
 C:\projects\server\src\main\java\operators\UnsupportedOperatorException.java

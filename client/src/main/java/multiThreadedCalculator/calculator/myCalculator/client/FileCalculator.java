@@ -12,13 +12,19 @@ import java.lang.*;
 public class FileCalculator implements Runnable {
 	private static Logger logger = LoggerFactory.getLogger(FileCalculator.class.getName());
 	private  File file;
-	Socket clientSocket= null ;
+	private String  ip;
+	private int port;
+	Socket clientSocket ;
 	BufferedReader clientInputStream = null ;
 	PrintStream clientRequest = null;
 	
-	public FileCalculator(File file ){
+	public FileCalculator(File file, String ip, int port   ){
+		logger.debug( "Entered FileCalculator constructor!");
 		this.file = file;
+		this.ip = ip;
+		this.port = port;
 	}
+	
 	public void run() {
 		calculate();
 	}		
@@ -30,9 +36,8 @@ public class FileCalculator implements Runnable {
 			String inputLine;  // read until end of file
 			String answer ;
 			String clientInput;
-			
 			while((inputLine = bufferdreader.readLine())!=null) {
-				clientSocket = new Socket("localhost", 65534); 
+				clientSocket = new Socket(ip, port); 
 				logger.info("Connected!");
 				clientRequest = new PrintStream(clientSocket.getOutputStream());
 				clientRequest.println(inputLine);
@@ -60,7 +65,6 @@ public class FileCalculator implements Runnable {
 					logger.info("ClientOutput : \n "+ answer); 
 					filewriter.write(answer +"\n");
 				}
-				
 			}
 			filereader.close();    //closes the stream and release the resources that were busy in stream
 			filewriter.close();					
@@ -70,6 +74,7 @@ public class FileCalculator implements Runnable {
 		}
 		catch(IOException e){
 			logger.error("IOException :"+ e);
+			e.printStackTrace();
 		}
 	}
 }
