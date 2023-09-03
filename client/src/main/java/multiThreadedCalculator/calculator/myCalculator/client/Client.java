@@ -2,6 +2,8 @@ package multiThreadedCalculator.calculator.myCalculator.client;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.context.annotation.*;
 import java.io.*;
 import java.net.*;
 import java.util.concurrent.locks.Lock;
@@ -10,14 +12,17 @@ import java.util.concurrent.*;
 import java.util.*;
 import java.lang.*;
 
+
 public class Client { 
 	private static Logger logger = LoggerFactory.getLogger(Client.class.getName());
 	private String ip;
 	private int port;
+	
     public void setIp(String ip) {
         this.ip = ip;
 		logger.debug("Entered setIp method!");
     }
+	
     public void setPort(int port) {
 		logger.debug("Entered setPort method!");
         this.port = port;

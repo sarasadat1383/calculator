@@ -2,20 +2,27 @@ package multiThreadedCalculator.calculator.myCalculator.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Component;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.*;
 import java.lang.*;
 import operators.*;
 
+
 public class Calculator {
 	private static Logger logger = LoggerFactory.getLogger(Calculator.class.getName());
 	private OperatorFactory factoryOperator;
 	private PostfixGeneratorProxy postfixGeneratorProxy;
+	
 	public Calculator(OperatorFactory factoryOperator, PostfixGeneratorProxy postfixGeneratorProxy ) {
 		logger.debug( "Entered Calculator constructor!"); 
 		this.factoryOperator = factoryOperator;
 		this.postfixGeneratorProxy = postfixGeneratorProxy;
+		logger.debug(" factoryOperator reference:"+ factoryOperator); 
+		logger.debug(" postfixGeneratorProxy reference1:"+ postfixGeneratorProxy); 
 	}
 	private int calculate( List<String> tokens) throws UnsupportedOperatorException {
 		Stack<Integer> operandstack = new Stack<>();
@@ -41,6 +48,8 @@ public class Calculator {
 		return operandstack.pop();
 	}
 	public int compute(String inputLine) throws UnsupportedOperatorException,InvalidExpressionLength {	
+		logger.info("Entered compute methoddd!");
+		logger.debug(" postfixGeneratorProxy reference:"+ postfixGeneratorProxy); 
 		List<String> tokens = postfixGeneratorProxy.convertingInfixToPostfix(inputLine);
 		logger.info("Entered compute method!");
 		return calculate(tokens);

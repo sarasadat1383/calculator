@@ -13,3 +13,4 @@ operators\Operator.class
 multiThreadedCalculator\calculator\myCalculator\server\PostfixGenerator.class
 operators\Multiplication.class
 multiThreadedCalculator\calculator\myCalculator\server\Main.class
+multiThreadedCalculator\calculator\myCalculator\server\ApplicationBeans.class

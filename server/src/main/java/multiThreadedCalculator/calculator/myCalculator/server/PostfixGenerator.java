@@ -2,13 +2,18 @@ package multiThreadedCalculator.calculator.myCalculator.server;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.*;
+import org.springframework.context.annotation.*;
+import org.springframework.stereotype.Component;
 import java.util.*;
 import java.lang.*;
 import operators.*;
 
+
 public class PostfixGenerator {
 	private static Logger logger = LoggerFactory.getLogger(PostfixGenerator.class.getName());
 	private OperatorFactory factoryOperator;
+	
 	public PostfixGenerator(OperatorFactory factoryOperator) {
 		logger.debug("Entered PostfixGenerator constructor!");
 		this.factoryOperator = factoryOperator;
