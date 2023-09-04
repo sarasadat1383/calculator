@@ -1,0 +1,6 @@
+Your entered operator is unsupported!
+5*2-4/2-68/2+349 Is a expression and the final answer is :  323
+Your entered operator is unsupported!
+34/2+456-878-98/2*353 Is a expression and the final answer is :  -17702
+99*22/11+67-87+44/4*98*654 Is a expression and the final answer is :  705190
+65-22/11+33*45-48 Is a expression and the final answer is :  1500

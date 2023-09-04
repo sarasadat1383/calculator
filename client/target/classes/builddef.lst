@@ -12,7 +12,6 @@ C:\Users\S.Hoseini\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.ja
 C:\projects\client\target\classes
 -s
 C:\projects\client\target\generated-sources\aspectj-maven-plugin
-C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\ApplicationBeans.java
-C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\Client.java
-C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\FileCalculator.java
-C:\projects\client\src\main\java\multiThreadedCalculator\calculator\myCalculator\client\Main.java
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\client\Client.java
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\client\FileCalculator.java
+C:\projects\client\src\main\java\multiThreadedCalculator\calculator\client\Main.java

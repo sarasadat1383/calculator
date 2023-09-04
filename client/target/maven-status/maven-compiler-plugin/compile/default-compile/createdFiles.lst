@@ -1,4 +1,3 @@
-multiThreadedCalculator\calculator\myCalculator\client\Main.class
-multiThreadedCalculator\calculator\myCalculator\client\ApplicationBeans.class
-multiThreadedCalculator\calculator\myCalculator\client\Client.class
-multiThreadedCalculator\calculator\myCalculator\client\FileCalculator.class
+multiThreadedCalculator\calculator\client\Main.class
+multiThreadedCalculator\calculator\client\Client.class
+multiThreadedCalculator\calculator\client\FileCalculator.class

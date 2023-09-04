@@ -1,23 +1,21 @@
 package operators;
 
-import org.springframework.beans.factory.annotation.*;
-import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Component;
 
-
-public class OperatorFactory{
+@Component
+public class OperatorFactory {
 	public Operator generateOperator(String operator ) throws UnsupportedOperatorException {
-		switch(	operator){
-			case"-":
+		switch (operator) {
+			case "-":
 			return new Subtraction();
-			case"+":
+			case "+":
 			return new Addition();
-			case"*":
+			case "*":
 			return new Multiplication();
-			case"/":
+			case "/":
 			return new Division();
-			default:
-			throw(new UnsupportedOperatorException("unsupported operator:" , operator));
+			default :
+			throw(new UnsupportedOperatorException("Unsupported operator:" , operator));
 		}
 	}
 }

@@ -5,6 +5,7 @@
 	<groupId>calculator.myCalculator.client</groupId>
 	<artifactId>multiThreadedCalculator</artifactId>
 	<version>1.0-SNAPSHOT</version> 
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -18,6 +19,7 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.32</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>

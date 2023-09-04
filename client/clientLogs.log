@@ -1,940 +1,938 @@
-09:01:00.950 [main] DEBUG m.c.myCalculator.client.Client - Entered setPort method!
-09:01:00.951 [main] DEBUG m.c.myCalculator.client.Client - Entered setIp method!
-09:01:00.966 [main] DEBUG m.c.myCalculator.client.Client - Entered Client constructor!
-09:01:00.967 [main] TRACE m.c.myCalculator.client.Client - filesListLength:13
-09:01:00.967 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.2.txt
-09:01:00.968 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.969 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.3.txt
-09:01:00.969 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.969 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input.4.txt
-09:01:00.970 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.970 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input1.txt
-09:01:00.970 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.971 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input10.txt
-09:01:00.971 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.972 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input11.txt
-09:01:00.976 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.977 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input12.txt
-09:01:00.978 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.978 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input13.txt
-09:01:00.979 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.979 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input5.txt
-09:01:00.979 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.980 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input6.txt
-09:01:00.980 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.981 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input7.txt
-09:01:00.981 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.982 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input8.txt
-09:01:00.982 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.983 [main] TRACE m.c.myCalculator.client.Client -  File : C:\projects\client\src\main\java\input\input9.txt
-09:01:00.983 [main] DEBUG m.c.m.client.FileCalculator - Entered FileCalculator constructor!
-09:01:00.991 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.991 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.992 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.992 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 6574-89303*6543-765434*6544
-09:01:00.992 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - Connected!
-09:01:00.994 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 383458*455394-535
-09:01:00.999 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 34563-6475-67363+3636-467/4745745*63
-09:01:01.00 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientRequest : 60+11+167+12+39+240
-09:01:01.01 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 47457-457474+4574-(353434-4353*4534)+453
-09:01:01.03 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 64564/7476-8686*74566-3634636
-09:01:01.04 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 34563-46346/675465464/45654-645/67465
-09:01:01.09 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 7564543+36-36363*363636
-09:01:01.11 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 76543+8484*93875/2
-09:01:01.11 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 8+2*10
-09:01:01.12 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 43567+(456456-34634+3636*54)+435
-09:01:01.14 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 6363-5657*4563-43434-346343+636346
-09:01:01.16 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientRequest : 689340+87490
-09:01:01.402 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 28
-09:01:01.403 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:12.840 [main] DEBUG m.calculator.client.Client - Entered Client constructor!
+16:00:12.840 [main] TRACE m.calculator.client.Client - FilesListLength : 13
+16:00:12.840 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input.2.txt
+16:00:12.849 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.849 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input.3.txt
+16:00:12.849 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.849 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input.4.txt
+16:00:12.849 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.849 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input1.txt
+16:00:12.849 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.851 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input10.txt
+16:00:12.851 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.852 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input11.txt
+16:00:12.852 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.852 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input12.txt
+16:00:12.852 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.852 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input13.txt
+16:00:12.852 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.858 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input5.txt
+16:00:12.858 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.858 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input6.txt
+16:00:12.858 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.860 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input7.txt
+16:00:12.860 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.860 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input8.txt
+16:00:12.860 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.861 [main] TRACE m.calculator.client.Client - File : C:\projects\client\src\main\java\input\input9.txt
+16:00:12.861 [main] DEBUG m.calculator.client.FileCalculator - Entered FileCalculator constructor!
+16:00:12.874 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.874 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.875 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientRequest : 689340+87490
+16:00:12.876 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 43567+(456456-34634+3636*54)+435
+16:00:12.875 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 64564/7476-8686*74566-3634636
+16:00:12.875 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 34563-46346/675465464/45654-645/67465
+16:00:12.875 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 383458*455394-535
+16:00:12.876 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 76543+8484*93875/2
+16:00:12.876 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 47457-457474+4574-(353434-4353*4534)+453
+16:00:12.876 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 8+2*10
+16:00:12.876 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 34563-6475-67363+3636-467/4745745*63
+16:00:12.876 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 7564543+36-36363*363636
+16:00:12.876 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.876 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 6363-5657*4563-43434-346343+636346
+16:00:12.876 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientRequest : 60+11+167+12+39+240
+16:00:12.876 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 6574-89303*6543-765434*6544
+16:00:12.940 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 28
+16:00:12.940 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
  8+2*10 Is a expression and the final answer is :  28
-09:01:01.408 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.409 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 5-4*2
-09:01:01.459 [pool-1-thread-2] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 776830
-09:01:01.459 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:12.940 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.940 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 5-4*2
+16:00:12.940 [pool-1-thread-2] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 776830
+16:00:12.940 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientOutput : 
  689340+87490 Is a expression and the final answer is :  776830
-09:01:01.464 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.465 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientRequest : 984/2
-09:01:01.552 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1469187219
-09:01:01.553 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:12.940 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.940 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientRequest : 984/2
+16:00:12.949 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1469187219
+16:00:12.949 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
  383458*455394-535 Is a expression and the final answer is :  -1469187219
-09:01:01.558 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.559 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 345634&23424
-09:01:01.593 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -3
-09:01:01.593 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5-4*2 Is a expression and the final answer is :  -3
-09:01:01.598 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.599 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 9864/2+34-8739*667/5+6578-8963+872*787*600/100
-09:01:01.662 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:01.663 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:01.664 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.668 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 452-345345*3252545-2523525
-09:01:01.864 [pool-1-thread-2] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 492
-09:01:01.864 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 984/2 Is a expression and the final answer is :  492
-09:01:01.869 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.870 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientRequest : 648303-7783933
-09:01:01.922 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 398294293
-09:01:01.923 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 76543+8484*93875/2 Is a expression and the final answer is :  398294293
-09:01:01.929 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.930 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 74839-8474+7847478
-09:01:01.953 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 662168
-09:01:01.954 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 43567+(456456-34634+3636*54)+435 Is a expression and the final answer is :  662168
-09:01:01.961 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:01.961 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 345346+(5636/464/456+46456)*456456
-09:01:02.13 [pool-1-thread-3] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 529
-09:01:02.13 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 60+11+167+12+39+240 Is a expression and the final answer is :  529
-09:01:02.19 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.19 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientRequest : 738854/2*84748*9043034-6473829+76739-271921*35627
-09:01:02.32 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -25559959
-09:01:02.32 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6363-5657*4563-43434-346343+636346 Is a expression and the final answer is :  -25559959
-09:01:02.33 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.33 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 86798-9789*57546-7567-8568-568*585-6756
-09:01:02.183 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1298335755
-09:01:02.184 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6574-89303*6543-765434*6544 Is a expression and the final answer is :  -1298335755
-09:01:02.189 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.191 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 34634335/135/67346-346346
-09:01:02.244 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -330429401
-09:01:02.245 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:12.949 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.949 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 345634&23424
+16:00:12.959 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -330429401
+16:00:12.969 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
  7564543+36-36363*363636 Is a expression and the final answer is :  -330429401
-09:01:02.250 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.251 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 3636363-634654-7786+36255
-09:01:02.337 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 18978078
-09:01:02.337 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 47457-457474+4574-(353434-4353*4534)+453 Is a expression and the final answer is :  18978078
-09:01:02.343 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.343 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 3453454*634+964+(4645+465466)+345
-09:01:02.408 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -651314904
-09:01:02.408 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:12.969 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.969 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 398294293
+16:00:12.969 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 76543+8484*93875/2 Is a expression and the final answer is :  398294293
+16:00:12.969 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 3636363-634654-7786+36255
+16:00:12.969 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.969 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 74839-8474+7847478
+16:00:12.969 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:12.969 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:12.969 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.969 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 452-345345*3252545-2523525
+16:00:12.969 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -3
+16:00:12.969 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5-4*2 Is a expression and the final answer is :  -3
+16:00:12.969 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.969 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 9864/2+34-8739*667/5+6578-8963+872*787*600/100
+16:00:12.969 [pool-1-thread-2] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 492
+16:00:12.969 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 984/2 Is a expression and the final answer is :  492
+16:00:12.969 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.969 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientRequest : 648303-7783933
+16:00:12.988 [pool-1-thread-3] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 529
+16:00:12.988 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 60+11+167+12+39+240 Is a expression and the final answer is :  529
+16:00:12.988 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - Connected!
+16:00:12.988 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientRequest : 738854/2*84748*9043034-6473829+76739-271921*35627
+16:00:12.999 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 662168
+16:00:12.999 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 43567+(456456-34634+3636*54)+435 Is a expression and the final answer is :  662168
+16:00:12.999 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.08 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 345346+(5636/464/456+46456)*456456
+16:00:13.08 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -25559959
+16:00:13.08 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6363-5657*4563-43434-346343+636346 Is a expression and the final answer is :  -25559959
+16:00:13.08 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.08 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 86798-9789*57546-7567-8568-568*585-6756
+16:00:13.08 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1298335755
+16:00:13.08 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6574-89303*6543-765434*6544 Is a expression and the final answer is :  -1298335755
+16:00:13.08 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.08 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 34634335/135/67346-346346
+16:00:13.08 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -651314904
+16:00:13.08 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
  64564/7476-8686*74566-3634636 Is a expression and the final answer is :  -651314904
-09:01:02.413 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.414 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 363645-68568+568568-3634634+747
-09:01:02.435 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 34563
-09:01:02.436 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34563-46346/675465464/45654-645/67465 Is a expression and the final answer is :  34563
-09:01:02.437 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.437 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 456-45645/456456/234/234/786-7767
-09:01:02.451 [pool-1-thread-2] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -7135630
-09:01:02.452 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 648303-7783933 Is a expression and the final answer is :  -7135630
-09:01:02.452 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.453 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientRequest : 87895*234
-09:01:02.454 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -35639
-09:01:02.455 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34563-6475-67363+3636-467/4745745*63 Is a expression and the final answer is :  -35639
-09:01:02.455 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.456 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 3634-6346*6346364-346-346+634346
-09:01:02.521 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 7913843
-09:01:02.521 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.08 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.08 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 363645-68568+568568-3634634+747
+16:00:13.28 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 7913843
+16:00:13.28 [pool-1-thread-2] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -7135630
+16:00:13.28 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
  74839-8474+7847478 Is a expression and the final answer is :  7913843
-09:01:02.523 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.527 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 567*543*654*654
-09:01:02.531 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2028755454
-09:01:02.532 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 452-345345*3252545-2523525 Is a expression and the final answer is :  2028755454
-09:01:02.533 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.536 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 23252/2525/235-4354
-09:01:02.804 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 3030178
-09:01:02.805 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.28 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 648303-7783933 Is a expression and the final answer is :  -7135630
+16:00:13.28 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.28 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.28 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 34563
+16:00:13.28 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34563-46346/675465464/45654-645/67465 Is a expression and the final answer is :  34563
+16:00:13.28 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 567*543*654*654
+16:00:13.28 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientRequest : 87895*234
+16:00:13.28 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.28 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 456-45645/456456/234/234/786-7767
+16:00:13.28 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -35639
+16:00:13.28 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34563-6475-67363+3636-467/4745745*63 Is a expression and the final answer is :  -35639
+16:00:13.28 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.28 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 3634-6346*6346364-346-346+634346
+16:00:13.28 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 18978078
+16:00:13.28 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 47457-457474+4574-(353434-4353*4534)+453 Is a expression and the final answer is :  18978078
+16:00:13.28 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.28 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 3453454*634+964+(4645+465466)+345
+16:00:13.49 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 3030178
+16:00:13.49 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
  3636363-634654-7786+36255 Is a expression and the final answer is :  3030178
-09:01:02.811 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.811 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 6356046*352513-5646356
-09:01:02.899 [pool-1-thread-2] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 20567430
-09:01:02.900 [pool-1-thread-2] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.49 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.59 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 6356046*352513-5646356
+16:00:13.59 [pool-1-thread-2] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 20567430
+16:00:13.59 [pool-1-thread-2] INFO m.calculator.client.FileCalculator - ClientOutput : 
  87895*234 Is a expression and the final answer is :  20567430
-09:01:02.981 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -2105006040
-09:01:02.981 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3453454*634+964+(4645+465466)+345 Is a expression and the final answer is :  -2105006040
-09:01:02.986 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:02.987 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 435345*567567-8585+785847/474
-09:01:03.125 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1389731270
-09:01:03.125 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6356046*352513-5646356 Is a expression and the final answer is :  -1389731270
-09:01:03.127 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.130 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 36346-07505-64736+567356-45654-654+36363
-09:01:03.205 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1618682992
-09:01:03.205 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3634-6346*6346364-346-346+634346 Is a expression and the final answer is :  -1618682992
-09:01:03.211 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.212 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 85856/345534+74747/54645
-09:01:03.235 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -563586167
-09:01:03.235 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 86798-9789*57546-7567-8568-568*585-6756 Is a expression and the final answer is :  -563586167
-09:01:03.236 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.238 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 45334634-7346346+363634
-09:01:03.252 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1458356380
-09:01:03.253 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.59 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 2028755454
+16:00:13.59 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 452-345345*3252545-2523525 Is a expression and the final answer is :  2028755454
+16:00:13.59 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.59 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 23252/2525/235-4354
+16:00:13.90 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1458356380
+16:00:13.90 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
  567*543*654*654 Is a expression and the final answer is :  -1458356380
-09:01:03.256 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.257 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 78494/784/344/34+433
-09:01:03.377 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -2020654481
-09:01:03.377 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 435345*567567-8585+785847/474 Is a expression and the final answer is :  -2020654481
-09:01:03.387 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.387 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 67567/78678-5747+568467
-09:01:03.516 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -4354
-09:01:03.516 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 23252/2525/235-4354 Is a expression and the final answer is :  -4354
-09:01:03.516 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.526 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 876*456&35
-09:01:03.546 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -346343
-09:01:03.546 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.90 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.90 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -346343
+16:00:13.90 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 78494/784/344/34+433
+16:00:13.90 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  34634335/135/67346-346346 Is a expression and the final answer is :  -346343
-09:01:03.546 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.546 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 363468+34632-87687/5425
-09:01:03.577 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -269371198
-09:01:03.577 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 345346+(5636/464/456+46456)*456456 Is a expression and the final answer is :  -269371198
-09:01:03.586 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.586 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 5645457-4646+45646+9756+567
-09:01:03.601 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -2770242
-09:01:03.601 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.90 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.90 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 363468+34632-87687/5425
+16:00:13.119 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -2770242
+16:00:13.119 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
  363645-68568+568568-3634634+747 Is a expression and the final answer is :  -2770242
-09:01:03.607 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.607 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 345467/856754/667567+5464576/457457
-09:01:03.627 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2954383
-09:01:03.627 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 9864/2+34-8739*667/5+6578-8963+872*787*600/100 Is a expression and the final answer is :  2954383
-09:01:03.627 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.627 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 74@76 
-09:01:03.667 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 433
-09:01:03.667 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 78494/784/344/34+433 Is a expression and the final answer is :  433
-09:01:03.676 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.676 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 67893-8374-6373+393
-09:01:03.851 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:03.851 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:03.856 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.860 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 765439-87654-387-6543+4535*354-56346-346346*4363*46
-09:01:03.926 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # @
-09:01:03.926 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:03.936 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.936 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : (3*2+8/4)
-09:01:03.946 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 38351922
-09:01:03.946 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 45334634-7346346+363634 Is a expression and the final answer is :  38351922
-09:01:03.956 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.960 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 3736345*346346*34634634
-09:01:03.976 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -7311
-09:01:03.976 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.119 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -269371198
+16:00:13.119 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 345346+(5636/464/456+46456)*456456 Is a expression and the final answer is :  -269371198
+16:00:13.119 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.119 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.119 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 5645457-4646+45646+9756+567
+16:00:13.119 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 345467/856754/667567+5464576/457457
+16:00:13.119 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1389731270
+16:00:13.119 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6356046*352513-5646356 Is a expression and the final answer is :  -1389731270
+16:00:13.119 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.119 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 36346-07505-64736+567356-45654-654+36363
+16:00:13.140 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -4354
+16:00:13.140 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 23252/2525/235-4354 Is a expression and the final answer is :  -4354
+16:00:13.140 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1618682992
+16:00:13.140 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.140 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3634-6346*6346364-346-346+634346 Is a expression and the final answer is :  -1618682992
+16:00:13.140 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 876*456&35
+16:00:13.140 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.140 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 85856/345534+74747/54645
+16:00:13.148 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -7311
+16:00:13.148 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -2105006040
+16:00:13.149 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  456-45645/456456/234/234/786-7767 Is a expression and the final answer is :  -7311
-09:01:03.976 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:03.987 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 4534-6456-677878-756457+3462-3557/78678
-09:01:04.07 [pool-1-thread-3] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1686421579
-09:01:04.07 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.149 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3453454*634+964+(4645+465466)+345 Is a expression and the final answer is :  -2105006040
+16:00:13.149 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.149 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.149 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 4534-6456-677878-756457+3462-3557/78678
+16:00:13.149 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 435345*567567-8585+785847/474
+16:00:13.149 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 2954383
+16:00:13.149 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 9864/2+34-8739*667/5+6578-8963+872*787*600/100 Is a expression and the final answer is :  2954383
+16:00:13.149 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.149 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 74@76 
+16:00:13.159 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -563586167
+16:00:13.159 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 86798-9789*57546-7567-8568-568*585-6756 Is a expression and the final answer is :  -563586167
+16:00:13.159 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.159 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 45334634-7346346+363634
+16:00:13.159 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.159 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.159 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.159 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 765439-87654-387-6543+4535*354-56346-346346*4363*46
+16:00:13.159 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # @
+16:00:13.159 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.159 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.159 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : (3*2+8/4)
+16:00:13.159 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 433
+16:00:13.159 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 78494/784/344/34+433 Is a expression and the final answer is :  433
+16:00:13.159 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.159 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 67893-8374-6373+393
+16:00:13.169 [pool-1-thread-3] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1686421579
+16:00:13.169 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientOutput : 
  738854/2*84748*9043034-6473829+76739-271921*35627 Is a expression and the final answer is :  1686421579
-09:01:04.16 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.16 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientRequest : 86775*52/2
-09:01:04.96 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 398084
-09:01:04.96 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.169 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.169 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientRequest : 86775*52/2
+16:00:13.179 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 398084
+16:00:13.179 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  363468+34632-87687/5425 Is a expression and the final answer is :  398084
-09:01:04.96 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.96 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 25346547*4636346+36356
-09:01:04.230 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 8
-09:01:04.230 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.179 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.179 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 25346547*4636346+36356
+16:00:13.209 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 8
+16:00:13.209 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
  (3*2+8/4) Is a expression and the final answer is :  8
-09:01:04.230 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.237 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : (18/2*2+5*3-2)
-09:01:04.377 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1
-09:01:04.377 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 85856/345534+74747/54645 Is a expression and the final answer is :  1
-09:01:04.377 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.386 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 6745346-457456+74545/7475
-09:01:04.496 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 53539
-09:01:04.496 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 67893-8374-6373+393 Is a expression and the final answer is :  53539
-09:01:04.496 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.496 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 73930*976*040-543
-09:01:04.496 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -857486460
-09:01:04.496 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3736345*346346*34634634 Is a expression and the final answer is :  -857486460
-09:01:04.507 [pool-1-thread-3] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2256150
-09:01:04.507 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.507 [pool-1-thread-3] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.209 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.209 [pool-1-thread-3] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 2256150
+16:00:13.209 [pool-1-thread-3] INFO m.calculator.client.FileCalculator - ClientOutput : 
  86775*52/2 Is a expression and the final answer is :  2256150
-09:01:04.507 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 734-632532-74574-3342_6356235
-09:01:04.517 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 562720
-09:01:04.517 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 67567/78678-5747+568467 Is a expression and the final answer is :  562720
-09:01:04.517 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.517 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 6346-634*6346/547574*5745645
-09:01:04.531 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 11
-09:01:04.531 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 345467/856754/667567+5464576/457457 Is a expression and the final answer is :  11
-09:01:04.536 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.536 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 784745/7647+745747-77457-54+7457457/74
-09:01:04.536 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 5696780
-09:01:04.536 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.209 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : (18/2*2+5*3-2)
+16:00:13.209 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 5696780
+16:00:13.209 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
  5645457-4646+45646+9756+567 Is a expression and the final answer is :  5696780
-09:01:04.536 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.536 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 4356346/5676/567%7-/65756
-09:01:04.536 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 521516
-09:01:04.536 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 36346-07505-64736+567356-45654-654+36363 Is a expression and the final answer is :  521516
-09:01:04.536 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.536 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 622/5246+625246-346346*34634
-09:01:04.556 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 761647762
-09:01:04.556 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.209 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.209 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 4356346/5676/567%7-/65756
+16:00:13.209 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1
+16:00:13.209 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 85856/345534+74747/54645 Is a expression and the final answer is :  1
+16:00:13.219 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.219 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 6745346-457456+74545/7475
+16:00:13.219 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 38351922
+16:00:13.219 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 45334634-7346346+363634 Is a expression and the final answer is :  38351922
+16:00:13.219 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.219 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 3736345*346346*34634634
+16:00:13.228 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 53539
+16:00:13.228 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 67893-8374-6373+393 Is a expression and the final answer is :  53539
+16:00:13.228 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.228 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 73930*976*040-543
+16:00:13.228 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 11
+16:00:13.228 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 345467/856754/667567+5464576/457457 Is a expression and the final answer is :  11
+16:00:13.228 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.228 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 784745/7647+745747-77457-54+7457457/74
+16:00:13.228 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -2020654481
+16:00:13.228 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 435345*567567-8585+785847/474 Is a expression and the final answer is :  -2020654481
+16:00:13.228 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.228 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 67567/78678-5747+568467
+16:00:13.228 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 761647762
+16:00:13.228 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  25346547*4636346+36356 Is a expression and the final answer is :  761647762
-09:01:04.556 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.556 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 7654-436547+7474884/45654*654654
-09:01:04.577 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # _
-09:01:04.577 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.228 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.228 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 7654-436547+7474884/45654*654654
+16:00:13.249 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # %
+16:00:13.249 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered operator is unsupported!
-09:01:04.577 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # %
-09:01:04.577 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 31
-09:01:04.577 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.577 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.577 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- (18/2*2+5*3-2) Is a expression and the final answer is :  31
-09:01:04.577 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.577 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 36362-23905-696-44645+464634*3636
-09:01:04.577 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.577 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 7657568/768678-978945+464
-09:01:04.577 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 8932/2+(890-7643)*65+22/11
-09:01:04.577 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1408740639
-09:01:04.577 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 73930*976*040-543 Is a expression and the final answer is :  -1408740639
-09:01:04.577 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1432795
-09:01:04.586 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.586 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.249 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.249 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 7657568/768678-978945+464
+16:00:13.249 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 521516
+16:00:13.249 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 36346-07505-64736+567356-45654-654+36363 Is a expression and the final answer is :  521516
+16:00:13.249 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.249 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 622/5246+625246-346346*34634
+16:00:13.264 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1432795
+16:00:13.264 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  4534-6456-677878-756457+3462-3557/78678 Is a expression and the final answer is :  -1432795
-09:01:04.586 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 7894+654*9540/65-654+54
-09:01:04.586 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.596 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 34636457-6456859+242537#
-09:01:04.596 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 6287899
-09:01:04.596 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.264 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.264 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 34636457-6456859+242537#
+16:00:13.269 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 31
+16:00:13.269 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ (18/2*2+5*3-2) Is a expression and the final answer is :  31
+16:00:13.269 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.269 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 8932/2+(890-7643)*65+22/11
+16:00:13.279 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -857486460
+16:00:13.279 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3736345*346346*34634634 Is a expression and the final answer is :  -857486460
+16:00:13.289 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.289 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 734-632532-74574-3342_6356235
+16:00:13.289 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1408740639
+16:00:13.289 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 73930*976*040-543 Is a expression and the final answer is :  -1408740639
+16:00:13.289 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.289 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 7894+654*9540/65-654+54
+16:00:13.289 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 6287899
+16:00:13.289 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
  6745346-457456+74545/7475 Is a expression and the final answer is :  6287899
-09:01:04.596 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.596 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 5464-56457-858678+846346/8547
-09:01:04.636 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -40213169
-09:01:04.636 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6346-634*6346/547574*5745645 Is a expression and the final answer is :  -40213169
-09:01:04.636 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.636 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -789252873
-09:01:04.636 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 57457-567-47456+_36346
-09:01:04.636 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.289 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.289 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 5464-56457-858678+846346/8547
+16:00:13.309 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 562720
+16:00:13.309 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 67567/78678-5747+568467 Is a expression and the final answer is :  562720
+16:00:13.309 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.309 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 6346-634*6346/547574*5745645
+16:00:13.309 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # #
+16:00:13.309 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.309 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.309 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 3563-57467&52535
+16:00:13.319 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -789252873
+16:00:13.319 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
  765439-87654-387-6543+4535*354-56346-346346*4363*46 Is a expression and the final answer is :  -789252873
-09:01:04.636 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.646 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 1234567*63565*47547+5753*7537-4523535
-09:01:04.646 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 890179770
-09:01:04.646 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 622/5246+625246-346346*34634 Is a expression and the final answer is :  890179770
-09:01:04.646 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # #
-09:01:04.646 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.646 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.646 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.646 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 32235/235+252524-5634634*363636
-09:01:04.646 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 3563-57467&52535
-09:01:04.656 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -978472
-09:01:04.656 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.319 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.319 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 1234567*63565*47547+5753*7537-4523535
+16:00:13.319 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -978472
+16:00:13.319 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
  7657568/768678-978945+464 Is a expression and the final answer is :  -978472
-09:01:04.656 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 769114
-09:01:04.656 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.656 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 784745/7647+745747-77457-54+7457457/74 Is a expression and the final answer is :  769114
-09:01:04.656 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 8536346/85856-786-56336+858578
-09:01:04.656 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.666 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 47457/7568+7447-54+745
-09:01:04.666 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 106279709
-09:01:04.666 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.329 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.329 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 8536346/85856-786-56336+858578
+16:00:13.329 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # _
+16:00:13.329 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.329 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.329 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 36362-23905-696-44645+464634*3636
+16:00:13.329 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 106279709
+16:00:13.329 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  7654-436547+7474884/45654*654654 Is a expression and the final answer is :  106279709
-09:01:04.666 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.666 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 245456*564645+474747-5252/36547
-09:01:04.666 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:04.666 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.329 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.329 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 245456*564645+474747-5252/36547
+16:00:13.329 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.329 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered operator is unsupported!
-09:01:04.666 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.666 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 36735747+775689679-345352
-09:01:04.666 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # _
-09:01:04.666 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.666 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 103281
-09:01:04.677 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.329 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.329 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 36735747+775689679-345352
+16:00:13.329 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 890179770
+16:00:13.329 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 622/5246+625246-346346*34634 Is a expression and the final answer is :  890179770
+16:00:13.329 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.329 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 32235/235+252524-5634634*363636
+16:00:13.341 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 769114
+16:00:13.341 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 784745/7647+745747-77457-54+7457457/74 Is a expression and the final answer is :  769114
+16:00:13.349 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.349 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 47457/7568+7447-54+745
+16:00:13.349 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 103281
+16:00:13.349 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -434477
+16:00:13.349 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
  7894+654*9540/65-654+54 Is a expression and the final answer is :  103281
-09:01:04.677 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.679 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.679 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -434477
-09:01:04.679 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 57547-56756+58568-34634667/87867
-09:01:04.679 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 8395*6543+6543+543-543
-09:01:04.679 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.349 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
  8932/2+(890-7643)*65+22/11 Is a expression and the final answer is :  -434477
-09:01:04.679 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.679 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 673*324-783+(3692-764+7842/2)-9090*54
-09:01:04.687 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -909572
-09:01:04.687 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.349 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.349 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.349 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 673*324-783+(3692-764+7842/2)-9090*54
+16:00:13.349 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 8395*6543+6543+543-543
+16:00:13.369 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -909572
+16:00:13.369 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
  5464-56457-858678+846346/8547 Is a expression and the final answer is :  -909572
-09:01:04.687 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.687 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 3634647-3636+74576-7859*6346
-09:01:04.687 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1689376340
-09:01:04.687 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 36362-23905-696-44645+464634*3636 Is a expression and the final answer is :  1689376340
-09:01:04.687 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.687 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 334534*3435345-63634+634433
-09:01:04.726 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 8144
-09:01:04.726 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 47457/7568+7447-54+745 Is a expression and the final answer is :  8144
-09:01:04.731 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.731 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 5674-074047*6456457/457457+74
-09:01:04.731 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -256116371
-09:01:04.731 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 32235/235+252524-5634634*363636 Is a expression and the final answer is :  -256116371
-09:01:04.731 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.731 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 65363675/47-5363463+5733463*6346346
-09:01:04.741 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1386678419
-09:01:04.741 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 1234567*63565*47547+5753*7537-4523535 Is a expression and the final answer is :  1386678419
-09:01:04.741 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 812080074
-09:01:04.741 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.369 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.369 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 3634647-3636+74576-7859*6346
+16:00:13.389 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -40213169
+16:00:13.389 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6346-634*6346/547574*5745645 Is a expression and the final answer is :  -40213169
+16:00:13.389 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.389 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 57457-567-47456+_36346
+16:00:13.389 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 812080074
+16:00:13.389 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  36735747+775689679-345352 Is a expression and the final answer is :  812080074
-09:01:04.741 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.741 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.741 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 43667-345634+4262/435634*54646
-09:01:04.741 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 2453648-5574547+54754745
-09:01:04.741 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 801555
-09:01:04.741 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.389 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.399 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 2453648-5574547+54754745
+16:00:13.408 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1386678419
+16:00:13.408 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 1234567*63565*47547+5753*7537-4523535 Is a expression and the final answer is :  1386678419
+16:00:13.408 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.408 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 43667-345634+4262/435634*54646
+16:00:13.408 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 801555
+16:00:13.408 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
  8536346/85856-786-56336+858578 Is a expression and the final answer is :  801555
-09:01:04.746 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.746 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 584564-85856+5856-856/865656
-09:01:04.751 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 54935028
-09:01:04.751 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 8395*6543+6543+543-543 Is a expression and the final answer is :  54935028
-09:01:04.751 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.751 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 234-6363+365/5363*3563
-09:01:04.751 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1157024395
-09:01:04.756 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.408 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.408 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 584564-85856+5856-856/865656
+16:00:13.408 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1157024395
+16:00:13.408 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  245456*564645+474747-5252/36547 Is a expression and the final answer is :  1157024395
-09:01:04.756 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.756 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 654*765432+63645747-74784784
-09:01:04.756 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -46167627
-09:01:04.756 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.408 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.408 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 654*765432+63645747-74784784
+16:00:13.408 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 8144
+16:00:13.408 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1689376340
+16:00:13.408 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 47457/7568+7447-54+745 Is a expression and the final answer is :  8144
+16:00:13.408 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 36362-23905-696-44645+464634*3636 Is a expression and the final answer is :  1689376340
+16:00:13.419 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.419 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.419 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 334534*3435345-63634+634433
+16:00:13.419 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 5674-074047*6456457/457457+74
+16:00:13.419 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # _
+16:00:13.419 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.419 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.419 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 57547-56756+58568-34634667/87867
+16:00:13.429 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -256116371
+16:00:13.429 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 32235/235+252524-5634634*363636 Is a expression and the final answer is :  -256116371
+16:00:13.429 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.429 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 65363675/47-5363463+5733463*6346346
+16:00:13.429 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 54935028
+16:00:13.429 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 8395*6543+6543+543-543 Is a expression and the final answer is :  54935028
+16:00:13.429 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.429 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 234-6363+365/5363*3563
+16:00:13.449 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -46167627
+16:00:13.449 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
  3634647-3636+74576-7859*6346 Is a expression and the final answer is :  -46167627
-09:01:04.767 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.767 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 5736436/7856754+46457/874
-09:01:04.767 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1810960299
-09:01:04.767 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 334534*3435345-63634+634433 Is a expression and the final answer is :  -1810960299
-09:01:04.767 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.772 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 3634-6346-3634634+4768979
-09:01:04.777 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 58965
-09:01:04.777 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 57547-56756+58568-34634667/87867 Is a expression and the final answer is :  58965
-09:01:04.777 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.777 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 34646-4756-986978+4646-458457*$57465
-09:01:04.800 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -266742
-09:01:04.800 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 673*324-783+(3692-764+7842/2)-9090*54 Is a expression and the final answer is :  -266742
-09:01:04.806 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.806 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 4682/2+(45-738)*23
-09:01:04.806 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 51633846
-09:01:04.806 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.449 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.449 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 5736436/7856754+46457/874
+16:00:13.459 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 51633846
+16:00:13.459 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  2453648-5574547+54754745 Is a expression and the final answer is :  51633846
-09:01:04.806 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.806 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 23523-55478*46345347-3463463
-09:01:04.806 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2819
-09:01:04.806 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5674-074047*6456457/457457+74 Is a expression and the final answer is :  2819
-09:01:04.817 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.817 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 567733&34636346
-09:01:04.826 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 504564
-09:01:04.826 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.459 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.459 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 23523-55478*46345347-3463463
+16:00:13.479 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -266742
+16:00:13.479 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 673*324-783+(3692-764+7842/2)-9090*54 Is a expression and the final answer is :  -266742
+16:00:13.479 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.479 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 4682/2+(45-738)*23
+16:00:13.479 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1810960299
+16:00:13.479 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 334534*3435345-63634+634433 Is a expression and the final answer is :  -1810960299
+16:00:13.479 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.479 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 3634-6346-3634634+4768979
+16:00:13.479 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 504564
+16:00:13.479 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -301967
+16:00:13.479 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
  584564-85856+5856-856/865656 Is a expression and the final answer is :  504564
-09:01:04.826 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.826 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 454-5768-856734+856-8568/5656
-09:01:04.826 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -6129
-09:01:04.826 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 234-6363+365/5363*3563 Is a expression and the final answer is :  -6129
-09:01:04.826 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.826 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 4535&345
-09:01:04.826 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # $
-09:01:04.826 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.826 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:04.837 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.837 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.837 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.837 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 34536+563467/4575-67567-645457+56
-09:01:04.837 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 7363435%353563
-09:01:04.847 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -301967
-09:01:04.847 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.479 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
  43667-345634+4262/435634*54646 Is a expression and the final answer is :  -301967
-09:01:04.847 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 489453491
-09:01:04.847 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 436363+25235^96573
-09:01:04.847 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.479 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.479 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.479 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 436363+25235^96573
+16:00:13.479 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 454-5768-856734+856-8568/5656
+16:00:13.489 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 489453491
+16:00:13.489 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  654*765432+63645747-74784784 Is a expression and the final answer is :  489453491
-09:01:04.847 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 6256254*4645674-4567457
-09:01:04.847 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1131633
-09:01:04.847 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:04.847 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3634-6346-3634634+4768979 Is a expression and the final answer is :  1131633
-09:01:04.847 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -426928261
-09:01:04.847 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.489 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.489 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 6256254*4645674-4567457
+16:00:13.499 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -6129
+16:00:13.499 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 234-6363+365/5363*3563 Is a expression and the final answer is :  -6129
+16:00:13.499 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.499 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 4535&345
+16:00:13.499 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
+16:00:13.499 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered operator is unsupported!
-09:01:04.847 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 53
-09:01:04.847 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.499 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.499 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 537565476*3452-43543526
+16:00:13.499 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 58965
+16:00:13.499 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 57547-56756+58568-34634667/87867 Is a expression and the final answer is :  58965
+16:00:13.499 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 2819
+16:00:13.499 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5674-074047*6456457/457457+74 Is a expression and the final answer is :  2819
+16:00:13.499 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.499 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 34646-4756-986978+4646-458457*$57465
+16:00:13.499 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.499 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 567733&34636346
+16:00:13.509 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 435-34059-3493595-303400-453453*453453+34634*56345*46345-345*34535*34534523
+16:00:13.509 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : InvalidExpressionLength # 75
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered expressions length is invalid!
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.509 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 25352-3525^2542432
+16:00:13.509 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -426928261
+16:00:13.509 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
  65363675/47-5363463+5733463*6346346 Is a expression and the final answer is :  -426928261
-09:01:04.847 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.509 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.509 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 3463747*345634/3473636/36346
+16:00:13.518 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.521 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.521 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.521 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 7363435%353563
+16:00:13.521 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 53
+16:00:13.521 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
  5736436/7856754+46457/874 Is a expression and the final answer is :  53
-09:01:04.847 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 5463-456674/678568/5474+4745
-09:01:04.847 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.847 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 435-34059-3493595-303400-453453*453453+34634*56345*46345-345*34535*34534523
-09:01:04.847 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 3463747*345634/3473636/36346
-09:01:04.847 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 46467+565467_4747
-09:01:04.847 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : InvalidExpressionLength # 75
-09:01:04.861 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered expressions length is invalid!
-09:01:04.861 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.861 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 25352-3525^2542432
-09:01:04.866 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # %
-09:01:04.866 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.521 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.521 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 46467+565467_4747
+16:00:13.529 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
+16:00:13.529 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered operator is unsupported!
-09:01:04.866 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.866 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 4674-56457+770707-9696-5956*674647
-09:01:04.866 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -13598
-09:01:04.866 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 4682/2+(45-738)*23 Is a expression and the final answer is :  -13598
-09:01:04.866 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.866 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientRequest : 8900/5*42343-(982/2-545+767-9363)*222/111+934/(2-4206420)/10+(6735*52400/242-686-860098)+43/(85353*4-3455990)-312
-09:01:04.866 [pool-1-thread-1] TRACE m.c.m.client.FileCalculator - Client Input : InvalidExpressionLength # 113
-09:01:04.866 [pool-1-thread-1] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered expressions length is invalid!
-09:01:04.866 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
-09:01:04.866 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.529 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.529 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 4545-2523/345534*545-2542452
+16:00:13.529 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # %
+16:00:13.529 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered operator is unsupported!
-09:01:04.866 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.866 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 537565476*3452-43543526
-09:01:04.877 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
-09:01:04.877 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.877 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.877 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 4545-2523/345534*545-2542452
-09:01:04.886 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # _
-09:01:04.886 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.886 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.886 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 764778/7463+64346-6346*36346
-09:01:04.886 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1534809498
-09:01:04.886 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.529 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.529 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1534809498
+16:00:13.529 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 4674-56457+770707-9696-5956*674647
+16:00:13.529 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
  23523-55478*46345347-3463463 Is a expression and the final answer is :  1534809498
-09:01:04.886 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.886 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 547478-34-560670+5634636
-09:01:04.907 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 468285707
-09:01:04.907 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6256254*4645674-4567457 Is a expression and the final answer is :  468285707
-09:01:04.907 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.907 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 2135-789/67675+4674565
-09:01:04.920 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -861193
-09:01:04.920 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 454-5768-856734+856-8568/5656 Is a expression and the final answer is :  -861193
-09:01:04.926 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.926 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 8547478/56756756+878758-54454
-09:01:04.926 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 0
-09:01:04.926 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3463747*345634/3473636/36346 Is a expression and the final answer is :  0
-09:01:04.926 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.926 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 3463466+364374574&643
-09:01:04.926 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -678309
-09:01:04.926 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34536+563467/4575-67567-645457+56 Is a expression and the final answer is :  -678309
-09:01:04.926 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.926 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 63467567/675-6757*46456+78568-56/67567-7867876
-09:01:04.926 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 206607754
-09:01:04.926 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 537565476*3452-43543526 Is a expression and the final answer is :  206607754
-09:01:04.926 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 10208
-09:01:04.926 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.926 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5463-456674/678568/5474+4745 Is a expression and the final answer is :  10208
-09:01:04.936 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 42564-5466*46345/23525
-09:01:04.936 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.946 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 467745+7/54745+47457
-09:01:04.957 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 5621410
-09:01:04.957 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 547478-34-560670+5634636 Is a expression and the final answer is :  5621410
-09:01:04.957 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -230587268
-09:01:04.967 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.967 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 764778/7463+64346-6346*36346 Is a expression and the final answer is :  -230587268
-09:01:04.967 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 6-605670-5670-6^745636+6363
-09:01:04.967 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.967 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -2537907
-09:01:04.967 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 574-57457/8568/575678*56
-09:01:04.967 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 4545-2523/345534*545-2542452 Is a expression and the final answer is :  -2537907
-09:01:04.967 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 277478992
-09:01:04.967 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.967 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 4674-56457+770707-9696-5956*674647 Is a expression and the final answer is :  277478992
-09:01:04.967 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 6543234/456*345345-46346+345
-09:01:04.967 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.967 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 7457-474+674745*5464-5646+46745-745
-09:01:04.967 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:04.967 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.967 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.967 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 3636-623-879+546356*74646-464363
-09:01:04.981 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 4676700
-09:01:04.981 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 2135-789/67675+4674565 Is a expression and the final answer is :  4676700
-09:01:04.981 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.986 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 78654&4534674
-09:01:04.986 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
-09:01:04.986 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.986 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.986 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 5726236-376363636+36363-36736-22346
-09:01:04.986 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:04.986 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:04.986 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:04.986 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 34567865+5754-75476-5423536*457474
-09:01:05.06 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 515202
-09:01:05.06 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 467745+7/54745+47457 Is a expression and the final answer is :  515202
-09:01:05.06 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.06 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 47546754/5676787*6546
-09:01:05.06 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 824304
-09:01:05.06 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 8547478/56756756+878758-54454 Is a expression and the final answer is :  824304
-09:01:05.06 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.06 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 5678979/&4745
-09:01:05.06 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 31796
-09:01:05.06 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 42564-5466*46345/23525 Is a expression and the final answer is :  31796
-09:01:05.06 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.17 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 2652-46264-462464/24525
-09:01:05.26 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.26 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.26 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.26 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 467457-457858+564-400*5696*4636
-09:01:05.46 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 574
-09:01:05.46 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 574-57457/8568/575678*56 Is a expression and the final answer is :  574
-09:01:05.46 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.46 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 858556-45643650-474747&56546
-09:01:05.46 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 660342108
-09:01:05.46 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6543234/456*345345-46346+345 Is a expression and the final answer is :  660342108
-09:01:05.46 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.46 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientRequest : 45252+42524-23545/23542
-09:01:05.57 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 52368
-09:01:05.57 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 47546754/5676787*6546 Is a expression and the final answer is :  52368
-09:01:05.57 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.57 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 563634*456346/6456456+4564
-09:01:05.67 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -321598474
-09:01:05.67 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 63467567/675-6757*46456+78568-56/67567-7867876 Is a expression and the final answer is :  -321598474
-09:01:05.67 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 2128122083
-09:01:05.67 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.67 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3636-623-879+546356*74646-464363 Is a expression and the final answer is :  2128122083
-09:01:05.67 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 474554-7867876+5675673
-09:01:05.67 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.67 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 344356*558+45735367+43624632
-09:01:05.77 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -608113279
-09:01:05.77 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 7457-474+674745*5464-5646+46745-745 Is a expression and the final answer is :  -608113279
-09:01:05.77 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -43630
-09:01:05.87 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.87 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.87 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 2652-46264-462464/24525 Is a expression and the final answer is :  -43630
-09:01:05.87 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.87 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -370660119
-09:01:05.87 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.87 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 847346/756756-5685467-5677-856756
-09:01:05.87 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5726236-376363636+36363-36736-22346 Is a expression and the final answer is :  -370660119
-09:01:05.87 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1398887167
-09:01:05.87 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.87 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 747745-4634636+867568*57574
-09:01:05.87 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.87 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34567865+5754-75476-5423536*457474 Is a expression and the final answer is :  1398887167
-09:01:05.87 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 85784743+46246264/345654
-09:01:05.87 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 6363-46345*367889-56746743+3573636
-09:01:05.87 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.87 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 4636547*4545646/23525-2523543+252524
-09:01:05.107 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1972717645
-09:01:05.107 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 467457-457858+564-400*5696*4636 Is a expression and the final answer is :  -1972717645
-09:01:05.107 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.107 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 5654-6544+577*34635321
-09:01:05.107 [pool-1-thread-4] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 87775
-09:01:05.107 [pool-1-thread-4] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 45252+42524-23545/23542 Is a expression and the final answer is :  87775
-09:01:05.126 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1717649
-09:01:05.126 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 474554-7867876+5675673 Is a expression and the final answer is :  -1717649
-09:01:05.126 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.126 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 6456567*465467-885856+786786
-09:01:05.126 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 4489
-09:01:05.126 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 563634*456346/6456456+4564 Is a expression and the final answer is :  4489
-09:01:05.126 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.126 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 787980/546456+454-567
-09:01:05.140 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 281510647
-09:01:05.140 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 344356*558+45735367+43624632 Is a expression and the final answer is :  281510647
-09:01:05.147 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.147 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 84949405*75475-47547*6334345-4563468*346+3463*4636
-09:01:05.147 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 85784876
-09:01:05.147 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 85784743+46246264/345654 Is a expression and the final answer is :  85784876
-09:01:05.147 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.147 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 1353-46574/46436-45245345*3525
-09:01:05.147 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1594134411
-09:01:05.147 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 747745-4634636+867568*57574 Is a expression and the final answer is :  -1594134411
-09:01:05.147 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.147 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 8556756-(5674745+4745645+67856*56456/67457)+754674
-09:01:05.167 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -6547899
-09:01:05.167 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 76886735
-09:01:05.167 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 847346/756756-5685467-5677-856756 Is a expression and the final answer is :  -6547899
-09:01:05.167 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.167 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6363-46345*367889-56746743+3573636 Is a expression and the final answer is :  76886735
-09:01:05.167 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 34634636+8585-8568+5784574*574-7457*6456
-09:01:05.167 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.167 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 266346-54654*346334-5744545+36363
-09:01:05.167 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1490257153
-09:01:05.167 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5654-6544+577*34635321 Is a expression and the final answer is :  -1490257153
-09:01:05.167 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.167 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 858688-45754758+68463*56457-74
-09:01:05.187 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -112
-09:01:05.187 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 787980/546456+454-567 Is a expression and the final answer is :  -112
-09:01:05.187 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -2241400
-09:01:05.187 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1158334481
-09:01:05.187 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 4636547*4545646/23525-2523543+252524 Is a expression and the final answer is :  -2241400
-09:01:05.187 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.187 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 6456567*465467-885856+786786 Is a expression and the final answer is :  -1158334481
-09:01:05.187 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.187 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 67445+(46456-456456)*546456
-09:01:05.187 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.187 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 24562-6356-3575-47547+5757474/45654747
-09:01:05.187 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 45645/674/47/4747
-09:01:05.227 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -576049821
-09:01:05.227 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 1353-46574/46436-45245345*3525 Is a expression and the final answer is :  -576049821
-09:01:05.227 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.227 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -474647849
-09:01:05.237 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 3537-644/23524*4737*3456256-8636*565
-09:01:05.237 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 858688-45754758+68463*56457-74 Is a expression and the final answer is :  -474647849
-09:01:05.237 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.237 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 4745+7756&6645
-09:01:05.241 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 0
-09:01:05.241 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 45645/674/47/4747 Is a expression and the final answer is :  0
-09:01:05.241 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.241 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -708593163
-09:01:05.247 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 435345-565-4654+53353/4535
-09:01:05.247 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 67445+(46456-456456)*546456 Is a expression and the final answer is :  -708593163
-09:01:05.247 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.247 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 4564-56459-56858+57567+(7547-858)*45
-09:01:05.247 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1754111088
-09:01:05.247 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 266346-54654*346334-5744545+36363 Is a expression and the final answer is :  -1754111088
-09:01:05.247 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -988129559
-09:01:05.247 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34634636+8585-8568+5784574*574-7457*6456 Is a expression and the final answer is :  -988129559
-09:01:05.247 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.247 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.247 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 68647-45735-36363+6745737-373634346-363356
-09:01:05.247 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 745646*36346346*55465*454
-09:01:05.247 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.247 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.247 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.247 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 764+7488-74745
-09:01:05.257 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1370840288
-09:01:05.257 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 84949405*75475-47547*6334345-4563468*346+3463*4636 Is a expression and the final answer is :  1370840288
-09:01:05.267 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.267 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 26263-463%252525
-09:01:05.267 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1102081
-09:01:05.267 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 8556756-(5674745+4745645+67856*56456/67457)+754674 Is a expression and the final answer is :  -1102081
-09:01:05.267 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.267 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 674745-(567567+5756708*747)+7457
-09:01:05.267 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -32916
-09:01:05.267 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 24562-6356-3575-47547+5757474/45654747 Is a expression and the final answer is :  -32916
-09:01:05.277 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.277 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 363675-7547547+37457467-3536363
-09:01:05.287 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # %
-09:01:05.287 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.292 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.292 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 266547-56*3656*34636+363463-4634-4634634
-09:01:05.292 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -66493
-09:01:05.292 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 764+7488-74745 Is a expression and the final answer is :  -66493
-09:01:05.292 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.292 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 5745-7457-74745+845757/747/474/4/74
-09:01:05.306 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1276122488
-09:01:05.306 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 745646*36346346*55465*454 Is a expression and the final answer is :  -1276122488
-09:01:05.306 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.306 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 745754/6756-767/74745/675674+7474
-09:01:05.306 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 430137
-09:01:05.306 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 435345-565-4654+53353/4535 Is a expression and the final answer is :  430137
-09:01:05.306 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.306 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 2423423/6564/35345-5353
-09:01:05.326 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -4875803
-09:01:05.326 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3537-644/23524*4737*3456256-8636*565 Is a expression and the final answer is :  -4875803
-09:01:05.326 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.326 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientRequest : 252528*34534&345
-09:01:05.337 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -367265416
-09:01:05.337 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 68647-45735-36363+6745737-373634346-363356 Is a expression and the final answer is :  -367265416
-09:01:05.337 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 249819
-09:01:05.337 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 4564-56459-56858+57567+(7547-858)*45 Is a expression and the final answer is :  249819
-09:01:05.337 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.346 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.346 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientRequest : 3462-5346*34545346-3634643-34636346
-09:01:05.346 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 26737232
-09:01:05.346 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientRequest : 34534*(56756+67567)/457457
-09:01:05.346 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 363675-7547547+37457467-3536363 Is a expression and the final answer is :  26737232
-09:01:05.346 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.346 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 454-57474*34625-14578-5673642/456353
-09:01:05.346 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -5178945
-09:01:05.346 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 674745-(567567+5756708*747)+7457 Is a expression and the final answer is :  -5178945
-09:01:05.346 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.346 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 47454-67567+98568*567-56765/567
-09:01:05.346 [pool-1-thread-9] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.346 [pool-1-thread-9] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.372 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -5353
-09:01:05.372 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 2423423/6564/35345-5353 Is a expression and the final answer is :  -5353
-09:01:05.372 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.372 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientRequest : 3463463+36343534-343434/434634
-09:01:05.377 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 1494689238
-09:01:05.377 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 266547-56*3656*34636+363463-4634-4634634 Is a expression and the final answer is :  1494689238
-09:01:05.377 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -76457
-09:01:05.377 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.386 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5745-7457-74745+845757/747/474/4/74 Is a expression and the final answer is :  -76457
-09:01:05.386 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 76796-97807&3455
-09:01:05.386 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.386 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 7584
-09:01:05.386 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientRequest : 747478-7878+7856
-09:01:05.386 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 745754/6756-767/74745/675674+7474 Is a expression and the final answer is :  7584
-09:01:05.386 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.386 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 74574-577679-956-8457+(6344/345)+34
-09:01:05.386 [pool-1-thread-13] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -3
-09:01:05.386 [pool-1-thread-13] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 34534*(56756+67567)/457457 Is a expression and the final answer is :  -3
-09:01:05.407 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.407 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.407 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.407 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 53523*687979+54754-7565
-09:01:05.407 [pool-1-thread-12] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -34093515
-09:01:05.407 [pool-1-thread-12] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3462-5346*34545346-3634643-34636346 Is a expression and the final answer is :  -34093515
-09:01:05.421 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 55867843
-09:01:05.421 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 47454-67567+98568*567-56765/567 Is a expression and the final answer is :  55867843
-09:01:05.421 [pool-1-thread-5] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 747456
-09:01:05.421 [pool-1-thread-5] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 747478-7878+7856 Is a expression and the final answer is :  747456
-09:01:05.421 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.421 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientRequest : 5675675/6785*85675
-09:01:05.427 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1990051386
-09:01:05.427 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 454-57474*34625-14578-5673642/456353 Is a expression and the final answer is :  -1990051386
-09:01:05.427 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.427 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 474574-57457-363636&3636
-09:01:05.427 [pool-1-thread-6] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 39806997
-09:01:05.427 [pool-1-thread-6] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 3463463+36343534-343434/434634 Is a expression and the final answer is :  39806997
-09:01:05.447 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : UnsupportedOperatorException # &
-09:01:05.447 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
- Your entered operator is unsupported!
-09:01:05.447 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1831958458
-09:01:05.447 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.447 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 53523*687979+54754-7565 Is a expression and the final answer is :  -1831958458
-09:01:05.447 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 73635-70798-4747-457457+74733-668*46647*474
-09:01:05.447 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -512466
-09:01:05.447 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.447 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 74574-577679-956-8457+(6344/345)+34 Is a expression and the final answer is :  -512466
-09:01:05.447 [pool-1-thread-7] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 71624300
-09:01:05.447 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientRequest : 88546/585/567657/4747
-09:01:05.447 [pool-1-thread-7] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 5675675/6785*85675 Is a expression and the final answer is :  71624300
-09:01:05.447 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.447 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 43534-64567-6746+36363-64-4567457
-09:01:05.466 [pool-1-thread-11] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 0
-09:01:05.466 [pool-1-thread-11] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 88546/585/567657/4747 Is a expression and the final answer is :  0
-09:01:05.466 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -4558937
-09:01:05.466 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 43534-64567-6746+36363-64-4567457 Is a expression and the final answer is :  -4558937
-09:01:05.466 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.466 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 74467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+63
-09:01:05.466 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : InvalidExpressionLength # 180
-09:01:05.466 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # -1885415650
-09:01:05.466 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.529 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.529 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 547478-34-560670+5634636
+16:00:13.529 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -13598
+16:00:13.529 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 4682/2+(45-738)*23 Is a expression and the final answer is :  -13598
+16:00:13.529 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.529 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientRequest : 8900/5*42343-(982/2-545+767-9363)*222/111+934/(2-4206420)/10+(6735*52400/242-686-860098)+43/(85353*4-3455990)-312
+16:00:13.541 [pool-1-thread-1] TRACE m.calculator.client.FileCalculator - Client Input : InvalidExpressionLength # 113
+16:00:13.541 [pool-1-thread-1] INFO m.calculator.client.FileCalculator - ClientOutput : 
  Your entered expressions length is invalid!
-09:01:05.466 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:13.548 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 468285707
+16:00:13.548 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6256254*4645674-4567457 Is a expression and the final answer is :  468285707
+16:00:13.548 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.548 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 2135-789/67675+4674565
+16:00:13.548 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # _
+16:00:13.548 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.548 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.548 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 764778/7463+64346-6346*36346
+16:00:13.548 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1131633
+16:00:13.548 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3634-6346-3634634+4768979 Is a expression and the final answer is :  1131633
+16:00:13.548 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.548 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 5463-456674/678568/5474+4745
+16:00:13.548 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # $
+16:00:13.548 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.548 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.548 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 34536+563467/4575-67567-645457+56
+16:00:13.548 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 206607754
+16:00:13.548 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 537565476*3452-43543526 Is a expression and the final answer is :  206607754
+16:00:13.548 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.548 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 42564-5466*46345/23525
+16:00:13.559 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -861193
+16:00:13.569 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 454-5768-856734+856-8568/5656 Is a expression and the final answer is :  -861193
+16:00:13.569 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.569 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 8547478/56756756+878758-54454
+16:00:13.579 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 0
+16:00:13.579 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3463747*345634/3473636/36346 Is a expression and the final answer is :  0
+16:00:13.579 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.579 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 3463466+364374574&643
+16:00:13.589 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -2537907
+16:00:13.589 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 4545-2523/345534*545-2542452 Is a expression and the final answer is :  -2537907
+16:00:13.589 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.589 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 6543234/456*345345-46346+345
+16:00:13.598 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 5621410
+16:00:13.598 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 547478-34-560670+5634636 Is a expression and the final answer is :  5621410
+16:00:13.598 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.598 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 6-605670-5670-6^745636+6363
+16:00:13.609 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 4676700
+16:00:13.609 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 2135-789/67675+4674565 Is a expression and the final answer is :  4676700
+16:00:13.609 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.609 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 78654&4534674
+16:00:13.609 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.609 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.609 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.609 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 3636-623-879+546356*74646-464363
+16:00:13.609 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 31796
+16:00:13.609 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 42564-5466*46345/23525 Is a expression and the final answer is :  31796
+16:00:13.609 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.609 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 2652-46264-462464/24525
+16:00:13.618 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.618 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 10208
+16:00:13.618 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.618 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5463-456674/678568/5474+4745 Is a expression and the final answer is :  10208
+16:00:13.618 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.618 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.618 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 34567865+5754-75476-5423536*457474
+16:00:13.618 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 467745+7/54745+47457
+16:00:13.631 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -230587268
+16:00:13.631 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 764778/7463+64346-6346*36346 Is a expression and the final answer is :  -230587268
+16:00:13.631 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.631 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 574-57457/8568/575678*56
+16:00:13.631 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 277478992
+16:00:13.631 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 4674-56457+770707-9696-5956*674647 Is a expression and the final answer is :  277478992
+16:00:13.631 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.631 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 7457-474+674745*5464-5646+46745-745
+16:00:13.631 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # ^
+16:00:13.631 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.631 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.631 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 5726236-376363636+36363-36736-22346
+16:00:13.631 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 824304
+16:00:13.631 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 8547478/56756756+878758-54454 Is a expression and the final answer is :  824304
+16:00:13.631 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.631 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 5678979/&4745
+16:00:13.641 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -678309
+16:00:13.641 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34536+563467/4575-67567-645457+56 Is a expression and the final answer is :  -678309
+16:00:13.641 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.641 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 63467567/675-6757*46456+78568-56/67567-7867876
+16:00:13.649 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.649 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.649 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.649 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 467457-457858+564-400*5696*4636
+16:00:13.668 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 660342108
+16:00:13.668 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6543234/456*345345-46346+345 Is a expression and the final answer is :  660342108
+16:00:13.668 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.668 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 515202
+16:00:13.668 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 467745+7/54745+47457 Is a expression and the final answer is :  515202
+16:00:13.668 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientRequest : 45252+42524-23545/23542
+16:00:13.668 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.668 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 47546754/5676787*6546
+16:00:13.668 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -43630
+16:00:13.668 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 2652-46264-462464/24525 Is a expression and the final answer is :  -43630
+16:00:13.668 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.668 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 85784743+46246264/345654
+16:00:13.688 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 2128122083
+16:00:13.688 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3636-623-879+546356*74646-464363 Is a expression and the final answer is :  2128122083
+16:00:13.688 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 574
+16:00:13.688 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.698 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 574-57457/8568/575678*56 Is a expression and the final answer is :  574
+16:00:13.699 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 344356*558+45735367+43624632
+16:00:13.699 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.699 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 858556-45643650-474747&56546
+16:00:13.699 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1398887167
+16:00:13.699 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34567865+5754-75476-5423536*457474 Is a expression and the final answer is :  1398887167
+16:00:13.699 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.699 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 4636547*4545646/23525-2523543+252524
+16:00:13.709 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -370660119
+16:00:13.709 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5726236-376363636+36363-36736-22346 Is a expression and the final answer is :  -370660119
+16:00:13.709 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.709 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 6363-46345*367889-56746743+3573636
+16:00:13.719 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 52368
+16:00:13.719 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 47546754/5676787*6546 Is a expression and the final answer is :  52368
+16:00:13.719 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.719 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 563634*456346/6456456+4564
+16:00:13.729 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -608113279
+16:00:13.729 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 85784876
+16:00:13.729 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 7457-474+674745*5464-5646+46745-745 Is a expression and the final answer is :  -608113279
+16:00:13.729 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 85784743+46246264/345654 Is a expression and the final answer is :  85784876
+16:00:13.729 [pool-1-thread-4] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 87775
+16:00:13.729 [pool-1-thread-4] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 45252+42524-23545/23542 Is a expression and the final answer is :  87775
+16:00:13.729 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.729 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.729 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 847346/756756-5685467-5677-856756
+16:00:13.729 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 1353-46574/46436-45245345*3525
+16:00:13.729 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.729 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.729 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.729 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 747745-4634636+867568*57574
+16:00:13.741 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1972717645
+16:00:13.741 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 467457-457858+564-400*5696*4636 Is a expression and the final answer is :  -1972717645
+16:00:13.748 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.748 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 5654-6544+577*34635321
+16:00:13.759 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 281510647
+16:00:13.759 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 344356*558+45735367+43624632 Is a expression and the final answer is :  281510647
+16:00:13.759 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.759 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 84949405*75475-47547*6334345-4563468*346+3463*4636
+16:00:13.759 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -321598474
+16:00:13.759 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 63467567/675-6757*46456+78568-56/67567-7867876 Is a expression and the final answer is :  -321598474
+16:00:13.759 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.769 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 474554-7867876+5675673
+16:00:13.769 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 4489
+16:00:13.769 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 563634*456346/6456456+4564 Is a expression and the final answer is :  4489
+16:00:13.769 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.769 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 787980/546456+454-567
+16:00:13.769 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1594134411
+16:00:13.778 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 747745-4634636+867568*57574 Is a expression and the final answer is :  -1594134411
+16:00:13.778 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.778 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 8556756-(5674745+4745645+67856*56456/67457)+754674
+16:00:13.789 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -2241400
+16:00:13.789 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 4636547*4545646/23525-2523543+252524 Is a expression and the final answer is :  -2241400
+16:00:13.789 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.789 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 24562-6356-3575-47547+5757474/45654747
+16:00:13.789 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 76886735
+16:00:13.789 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6363-46345*367889-56746743+3573636 Is a expression and the final answer is :  76886735
+16:00:13.789 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.789 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 266346-54654*346334-5744545+36363
+16:00:13.789 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1490257153
+16:00:13.789 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5654-6544+577*34635321 Is a expression and the final answer is :  -1490257153
+16:00:13.789 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.789 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 858688-45754758+68463*56457-74
+16:00:13.799 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -576049821
+16:00:13.799 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 1353-46574/46436-45245345*3525 Is a expression and the final answer is :  -576049821
+16:00:13.799 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.799 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 3537-644/23524*4737*3456256-8636*565
+16:00:13.808 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -6547899
+16:00:13.808 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 847346/756756-5685467-5677-856756 Is a expression and the final answer is :  -6547899
+16:00:13.808 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.808 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 34634636+8585-8568+5784574*574-7457*6456
+16:00:13.808 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1717649
+16:00:13.808 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 474554-7867876+5675673 Is a expression and the final answer is :  -1717649
+16:00:13.808 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.808 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 6456567*465467-885856+786786
+16:00:13.828 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -112
+16:00:13.828 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 787980/546456+454-567 Is a expression and the final answer is :  -112
+16:00:13.828 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.828 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 67445+(46456-456456)*546456
+16:00:13.849 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -474647849
+16:00:13.849 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 858688-45754758+68463*56457-74 Is a expression and the final answer is :  -474647849
+16:00:13.849 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.859 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 4745+7756&6645
+16:00:13.861 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1754111088
+16:00:13.861 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 266346-54654*346334-5744545+36363 Is a expression and the final answer is :  -1754111088
+16:00:13.869 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.869 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -32916
+16:00:13.869 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 24562-6356-3575-47547+5757474/45654747 Is a expression and the final answer is :  -32916
+16:00:13.869 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 68647-45735-36363+6745737-373634346-363356
+16:00:13.869 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.869 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 363675-7547547+37457467-3536363
+16:00:13.869 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1158334481
+16:00:13.869 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 6456567*465467-885856+786786 Is a expression and the final answer is :  -1158334481
+16:00:13.869 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.869 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 45645/674/47/4747
+16:00:13.869 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.869 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1370840288
+16:00:13.869 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.869 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 84949405*75475-47547*6334345-4563468*346+3463*4636 Is a expression and the final answer is :  1370840288
+16:00:13.869 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.869 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.869 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 764+7488-74745
+16:00:13.869 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 26263-463%252525
+16:00:13.879 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1102081
+16:00:13.879 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 8556756-(5674745+4745645+67856*56456/67457)+754674 Is a expression and the final answer is :  -1102081
+16:00:13.879 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.879 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -4875803
+16:00:13.879 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 674745-(567567+5756708*747)+7457
+16:00:13.879 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3537-644/23524*4737*3456256-8636*565 Is a expression and the final answer is :  -4875803
+16:00:13.879 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.879 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientRequest : 252528*34534&345
+16:00:13.879 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -708593163
+16:00:13.879 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 67445+(46456-456456)*546456 Is a expression and the final answer is :  -708593163
+16:00:13.879 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.879 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 4564-56459-56858+57567+(7547-858)*45
+16:00:13.879 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # %
+16:00:13.879 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.879 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.879 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 266547-56*3656*34636+363463-4634-4634634
+16:00:13.899 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -988129559
+16:00:13.899 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34634636+8585-8568+5784574*574-7457*6456 Is a expression and the final answer is :  -988129559
+16:00:13.899 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.899 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 745646*36346346*55465*454
+16:00:13.899 [pool-1-thread-9] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.899 [pool-1-thread-9] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.899 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -66493
+16:00:13.899 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 764+7488-74745 Is a expression and the final answer is :  -66493
+16:00:13.899 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 0
+16:00:13.899 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 45645/674/47/4747 Is a expression and the final answer is :  0
+16:00:13.899 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.899 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.899 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 5745-7457-74745+845757/747/474/4/74
+16:00:13.899 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 435345-565-4654+53353/4535
+16:00:13.918 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 26737232
+16:00:13.918 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 363675-7547547+37457467-3536363 Is a expression and the final answer is :  26737232
+16:00:13.918 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.918 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 454-57474*34625-14578-5673642/456353
+16:00:13.941 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -5178945
+16:00:13.941 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 674745-(567567+5756708*747)+7457 Is a expression and the final answer is :  -5178945
+16:00:13.941 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.941 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 47454-67567+98568*567-56765/567
+16:00:13.941 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -367265416
+16:00:13.941 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 68647-45735-36363+6745737-373634346-363356 Is a expression and the final answer is :  -367265416
+16:00:13.941 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.941 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientRequest : 3462-5346*34545346-3634643-34636346
+16:00:13.941 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1276122488
+16:00:13.941 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 745646*36346346*55465*454 Is a expression and the final answer is :  -1276122488
+16:00:13.949 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.949 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 745754/6756-767/74745/675674+7474
+16:00:13.971 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 430137
+16:00:13.971 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 435345-565-4654+53353/4535 Is a expression and the final answer is :  430137
+16:00:13.971 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.971 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 2423423/6564/35345-5353
+16:00:13.971 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 249819
+16:00:13.971 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 4564-56459-56858+57567+(7547-858)*45 Is a expression and the final answer is :  249819
+16:00:13.971 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.971 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientRequest : 34534*(56756+67567)/457457
+16:00:13.971 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 1494689238
+16:00:13.971 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 266547-56*3656*34636+363463-4634-4634634 Is a expression and the final answer is :  1494689238
+16:00:13.979 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.979 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 76796-97807&3455
+16:00:13.979 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -76457
+16:00:13.979 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5745-7457-74745+845757/747/474/4/74 Is a expression and the final answer is :  -76457
+16:00:13.979 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.979 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientRequest : 747478-7878+7856
+16:00:13.989 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:13.989 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:13.989 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.989 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 53523*687979+54754-7565
+16:00:13.999 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1990051386
+16:00:13.999 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 454-57474*34625-14578-5673642/456353 Is a expression and the final answer is :  -1990051386
+16:00:13.999 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:13.999 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 474574-57457-363636&3636
+16:00:13.999 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 55867843
+16:00:13.999 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 47454-67567+98568*567-56765/567 Is a expression and the final answer is :  55867843
+16:00:14.08 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.08 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientRequest : 5675675/6785*85675
+16:00:14.08 [pool-1-thread-12] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -34093515
+16:00:14.08 [pool-1-thread-12] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3462-5346*34545346-3634643-34636346 Is a expression and the final answer is :  -34093515
+16:00:14.19 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 7584
+16:00:14.19 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 745754/6756-767/74745/675674+7474 Is a expression and the final answer is :  7584
+16:00:14.19 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.19 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 74574-577679-956-8457+(6344/345)+34
+16:00:14.19 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -5353
+16:00:14.19 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 2423423/6564/35345-5353 Is a expression and the final answer is :  -5353
+16:00:14.19 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.19 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientRequest : 3463463+36343534-343434/434634
+16:00:14.19 [pool-1-thread-5] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 747456
+16:00:14.19 [pool-1-thread-5] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 747478-7878+7856 Is a expression and the final answer is :  747456
+16:00:14.19 [pool-1-thread-13] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -3
+16:00:14.19 [pool-1-thread-13] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 34534*(56756+67567)/457457 Is a expression and the final answer is :  -3
+16:00:14.19 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : UnsupportedOperatorException # &
+16:00:14.19 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered operator is unsupported!
+16:00:14.19 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.19 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 73635-70798-4747-457457+74733-668*46647*474
+16:00:14.28 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1831958458
+16:00:14.28 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 53523*687979+54754-7565 Is a expression and the final answer is :  -1831958458
+16:00:14.28 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.28 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientRequest : 88546/585/567657/4747
+16:00:14.39 [pool-1-thread-7] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 71624300
+16:00:14.39 [pool-1-thread-7] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 5675675/6785*85675 Is a expression and the final answer is :  71624300
+16:00:14.49 [pool-1-thread-6] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 39806997
+16:00:14.49 [pool-1-thread-6] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 3463463+36343534-343434/434634 Is a expression and the final answer is :  39806997
+16:00:14.58 [pool-1-thread-11] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 0
+16:00:14.58 [pool-1-thread-11] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 88546/585/567657/4747 Is a expression and the final answer is :  0
+16:00:14.58 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -512466
+16:00:14.58 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 74574-577679-956-8457+(6344/345)+34 Is a expression and the final answer is :  -512466
+16:00:14.58 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.58 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 43534-64567-6746+36363-64-4567457
+16:00:14.58 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -1885415650
+16:00:14.58 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  73635-70798-4747-457457+74733-668*46647*474 Is a expression and the final answer is :  -1885415650
-09:01:05.476 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.478 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.480 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 10+3
-09:01:05.480 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientRequest : 562637-474+6736354+457457*456546/456546
-09:01:05.486 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 13
-09:01:05.486 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 10+3 Is a expression and the final answer is :  13
-09:01:05.486 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - Connected!
-09:01:05.486 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientRequest : 20+18
-09:01:05.486 [pool-1-thread-8] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 38
-09:01:05.486 [pool-1-thread-8] INFO m.c.m.client.FileCalculator - ClientOutput : 
- 20+18 Is a expression and the final answer is :  38
-09:01:05.486 [pool-1-thread-10] TRACE m.c.m.client.FileCalculator - Client Input : Ok # 7295006
-09:01:05.486 [pool-1-thread-10] INFO m.c.m.client.FileCalculator - ClientOutput : 
+16:00:14.58 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.58 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientRequest : 562637-474+6736354+457457*456546/456546
+16:00:14.78 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # -4558937
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 43534-64567-6746+36363-64-4567457 Is a expression and the final answer is :  -4558937
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 74467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+6374467-4646*34563453-34563-46+3634+63
+16:00:14.78 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : InvalidExpressionLength # 180
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ Your entered expressions length is invalid!
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 10+3
+16:00:14.78 [pool-1-thread-10] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 7295006
+16:00:14.78 [pool-1-thread-10] INFO m.calculator.client.FileCalculator - ClientOutput : 
  562637-474+6736354+457457*456546/456546 Is a expression and the final answer is :  7295006
+16:00:14.78 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 13
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 10+3 Is a expression and the final answer is :  13
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - Connected!
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientRequest : 20+18
+16:00:14.78 [pool-1-thread-8] TRACE m.calculator.client.FileCalculator - Client Input : Ok # 38
+16:00:14.78 [pool-1-thread-8] INFO m.calculator.client.FileCalculator - ClientOutput : 
+ 20+18 Is a expression and the final answer is :  38
